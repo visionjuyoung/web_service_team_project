@@ -24,28 +24,51 @@
 	.navbar-brand{
 		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
 		width: 100px;
+		margin-right: 10px;
 	}
 	.jumbotron {
-	 	margin-top:10;
+	 	margin-top:10px;
         background: url("https://img.allthatboots.com/image/file1_1521677799.png");
         background-size:cover;
         height: 500px;
         color:white;
          }
+     ul li a { 
+            text-decoration: none; 
+            font-size: 20px;  
+            color: white; 
+            position: relative; 
+  
+        } 
+        ul li a::before { 
+            content: ""; 
+            width: 0px; 
+            height: 10px; 
+            background: black; 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            transition: .5s; 
+        } 
+         ul li a:hover::before { 
+            width: 50%; 
+            transform: translateX(100%); 
+        } 
     .scrollable-menu {
    	 	height: auto;
     	max-height: 300px;
     	overflow-x: hidden;
-}
+	}
     footer {
       background-color: #ffffff;
       padding: 25px;
     }
+    
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-expand-sm">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -260,7 +283,7 @@
 </div>
   
 <div class="container-fluid bg-3 text-center">    
-  <h3>주간 EPL</h3><br>
+  <h3>주간 EPL 이슈</h3><br>
   <div class="row">
     <div class="col-sm-3">
       <p>손케 듀오 환상의 짝궁</p>
