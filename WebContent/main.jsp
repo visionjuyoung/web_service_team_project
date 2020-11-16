@@ -325,6 +325,37 @@
   </div>
 </div><br><br>
 
+<div class="container-fluid bg-3 text-center">    
+  <h3>주간 EPL 영상</h3><br>
+  <div class="row">
+  	<div>
+    <p>[EPL역대 최고의 솔로골 투표]</p> 
+	<iframe width="300" height="180"
+		src="https://www.youtube.com/embed/n6hk4Ke25D8">
+	</iframe>
+	</div>
+	<div>
+	<p>[영국언론이 직접 발표한 EPL 최고의 선수]</p> 
+	<iframe width="300" height="180"
+		src="https://www.youtube.com/embed/7oN9p-VeqWc">
+	</iframe>
+	</div>
+	<div>
+	<p>[2020 EPL최악의 영입]</p> 
+	<iframe width="300" height="180"
+		src="https://www.youtube.com/embed/0OETsbjPNOg">
+	</iframe>
+	</div>
+	<div>
+	<p>[데브라이너의 슈팅 수준]</p> 
+	<iframe width="300" height="180"
+		src="https://www.youtube.com/embed/VEHTSmh30jA">
+	</iframe>
+	</div>
+  </div>
+</div><br>
+
+
 <footer class="container-fluid text-center">
   <p>copyright ⓒ비상하는 독수리 Corp. All Rights Reserved.</p>
 </footer>

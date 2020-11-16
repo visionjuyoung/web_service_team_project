@@ -21,19 +21,19 @@
 		padding: 100px;
 		width: auto
 	}
-	.navbar-brand{
-		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
-		width: 100px;
-		margin-right: 10px;
-	}
-	.jumbotron {
+		.navbar-brand{
+			background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
+			width: 100px;
+			margin-right: 10px;
+		}
+		.jumbotron {
 	 	margin-top:10px;
         background: url("https://pbs.twimg.com/media/EBl53g5WsAAbzHO?format=jpg&name=4096x4096");
         background-size:cover;
         height: 600px;
         color:white;
          }
-     ul li a { 
+     	ul li a { 
             text-decoration: none; 
             font-size: 19px;  
             color: white; 
@@ -283,6 +283,7 @@
   <button type="button" class="btn btn-primary btn-xs">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x" />
   </button>
+  
   <button type="button" class="btn btn-primary btn-xs">
          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
   </button>
