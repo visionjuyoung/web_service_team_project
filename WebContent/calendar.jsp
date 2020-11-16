@@ -28,7 +28,7 @@
 	}
 	.jumbotron {
 	 	margin-top:10px;
-        background: url("https://pbs.twimg.com/media/EBl53g5WsAAbzHO?format=jpg&name=4096x4096");
+        background: url("https://i1.wp.com/media.premiumtimesng.com/wp-content/files/2020/09/Premier-League-clubs-min-scaled.jpg?fit=2560%2C1440&ssl=1");
         background-size:cover;
         height: 600px;
         color:white;
@@ -278,71 +278,6 @@
 <div class="jumbotron">
 </div>
 
-<div class="contanier-fluid text-center">
-<div class="btn-group">
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-         <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-primary btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" />
-  </button>
-</div>
-</div>
-
 <div class="container-fluid text-center">    
   <div class="col content">
     <div class="col-sm-2 sidenav">
@@ -355,7 +290,7 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-center"> 
-      <h1>선수</h1>
+      <h1>일정</h1>
       <p></p>
       <hr>
     </div>

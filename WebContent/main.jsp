@@ -80,7 +80,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#"> 홈</a></li>
+        <li><a href="main.jsp"> 홈</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">팀
         <span class="caret"></span></a>
@@ -248,23 +248,23 @@
                 </li>
         </ul>
       </li>
-        <li><a href="#">선수</a></li>
-        <li><a href="#">일정</a></li>
+        <li><a href="player.jsp">선수</a></li>
+        <li><a href="calendar.jsp">일정</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">랭킹
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">득점 순위</a></li>
-          <li><a href="#">도움 순위</a></li>
-          <li><a href="#">공격 포인트 순위</a></li>
+          <li><a href="player_rank.jsp">득점 순위</a></li>
+          <li><a href="support_rank.jsp">도움 순위</a></li>
+          <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>
       </li>
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">커뮤니티
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">뉴스</a></li>
-          <li><a href="#">응원</a></li>
+          <li><a href="news.jsp">뉴스</a></li>
+          <li><a href="community.jsp">응원</a></li>
         </ul>
       </li>
       </ul>
@@ -326,7 +326,7 @@
 </div><br><br>
 
 <footer class="container-fluid text-center">
-  <p>@inc 비상하는 독수리</p>
+  <p>copyright ⓒ비상하는 독수리 Corp. All Rights Reserved.</p>
 </footer>
 
 </body>
