@@ -256,7 +256,7 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">랭킹
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="player_rank.jsp"><img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" width="20px" height="auto"/>득점 순위</a></li>
+          <li><a href="player_rank.jsp">득점 순위</a></li>
           <li><a href="support_rank.jsp">도움 순위</a></li>
           <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>

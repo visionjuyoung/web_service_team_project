@@ -295,8 +295,6 @@
   </div>
 </div>
 
-<hr>
-
 <div class="contanier-fluid text-center">
 <div class="btn-group">
   <button type="button" class="btn btn-primary btn-xs">

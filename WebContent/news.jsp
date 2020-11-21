@@ -251,12 +251,12 @@
         </ul>
       </li>
         <li><a href="player.jsp">선수</a></li>
-        <li><a href="#">일정</a></li>
+        <li><a href="calendar.jsp">일정</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">랭킹
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="player.jsp">득점 순위</a></li>
+          <li><a href="player_rank.jsp">득점 순위</a></li>
           <li><a href="support_rank.jsp">도움 순위</a></li>
           <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>
@@ -280,24 +280,23 @@
 <div class="jumbotron">
 </div>
 
-<div class="container-fluid text-center">    
-  <div class="col content">
-    <div class="col-sm-2 sidenav">
-    </div>
-  </div>
+<div class="col-sm-12 text-center">
+	<h1>뉴스</h1>
+	<hr>
 </div>
-  
-<div class="container-fluid text-center">    
+
+<div class="container-fluid ">
   <div class="row content">
-    <div class="col-sm-2 sidenav">
+    <div class="col-sm-2 sidenav text-center">
+      <h4>커뮤니티</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="news.jsp">뉴스</a></li>
+        <li><a href="community.jsp">응원</a></li>
+      </ul><br>
     </div>
-    <div class="col-sm-8 text-center"> 
-      <h1>뉴스</h1>
-      <p></p>
-      <hr>
-    </div>
-    <div class="col-sm-2 sidenav">
-      </div>
+
+    <div class="col-sm-10">
+      
     </div>
   </div>
 </div>

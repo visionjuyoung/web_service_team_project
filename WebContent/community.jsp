@@ -62,7 +62,7 @@
     	overflow-x: hidden;
 	}
 	/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
+    .row.content {height: 200px}
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -275,12 +275,12 @@
         </ul>
       </li>
         <li><a href="player.jsp">선수</a></li>
-        <li><a href="#">일정</a></li>
+        <li><a href="calendar.jsp">일정</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">랭킹
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="player.jsp">득점 순위</a></li>
+          <li><a href="player_rank.jsp">득점 순위</a></li>
           <li><a href="support_rank.jsp">도움 순위</a></li>
           <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>
@@ -304,27 +304,22 @@
 <div class="jumbotron">
 </div>
 
-<div class="container-fluid">
+<div class="col-sm-12 text-center">
+	<h1>응원</h1>
+	<hr>
+</div>
+
+<div class="container-fluid ">
   <div class="row content">
-    <div class="col-sm-3 sidenav">
+    <div class="col-sm-2 sidenav text-center">
       <h4>커뮤니티</h4>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">팀 토론방</a></li>
-        <li><a href="#section2">선수 토론방</a></li>
-        <li><a href="#section3">감독 토론방</a></li>
-        <li><a href="#section3">손흥민 토론방</a></li>
+        <li><a href="news.jsp">뉴스</a></li>
+        <li class="active"><a href="community.jsp">응원</a></li>
       </ul><br>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search title..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
-      </div>
     </div>
 
-    <div class="col-sm-9">
+    <div class="col-sm-10">
       <h4><small>RECENT POSTS</small></h4>
       <hr>
       <h2>손흥민 월클이다</h2>
@@ -371,7 +366,7 @@
           <p><span class="badge">1</span> 댓글:</p><br>
           <div class="row">
             <div class="col-sm-2 text-center">
-              <img src="https://resources.premierleague.com/premierleague/badges/50/t14.png" class="img-circle" height="40" width="40" alt="Avatar">
+              <img src="https://resources.premierleague.com/premierleague/badges/50/t14.png" class="img-circle" height="50" width="50" alt="Avatar">
             </div>
             <div class="col-xs-10">
               <h4>리일딱 <small>2020-11-21 PM 05:55</small></h4>
@@ -383,7 +378,6 @@
       </div>
     </div>
   </div>
-</div>
 </div>
 
 

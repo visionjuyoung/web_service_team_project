@@ -61,6 +61,12 @@
     	max-height: 300px;
     	overflow-x: hidden;
 	}
+	  .row.content {height: 250px}
+   
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
     footer {
       background-color: #ffffff;
       padding: 25px;
@@ -251,12 +257,12 @@
         </ul>
       </li>
         <li><a href="player.jsp">선수</a></li>
-        <li><a href="#">일정</a></li>
+        <li><a href="calendar.jsp">일정</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">랭킹
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="player.jsp">득점 순위</a></li>
+          <li><a href="player_rank.jsp">득점 순위</a></li>
           <li><a href="support_rank.jsp">도움 순위</a></li>
           <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>
@@ -287,20 +293,28 @@
   </div>
 </div>
   
+<div class="col-sm-12 text-center">
+	<h1>도움순위</h1>
+	<hr>
+</div>
+  
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
+      <h4>랭킹</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="player_rank.jsp">득점 순위</a></li>
+        <li class="active"><a href="support_rank.jsp">도움 순위</a></li>
+        <li><a href="pay_rank.jsp">선수가치 순위</a></li>
+      
     </div>
-    <div class="col-sm-8 text-center"> 
-      <h1>도움 순위</h1>
-      <p></p>
-      <hr>
+    <div class="col-sm-8 text-left"> 
+      
     </div>
-    <div class="col-sm-2 sidenav">
-      </div>
-    </div>
+    
   </div>
 </div>
+
 
 
 
