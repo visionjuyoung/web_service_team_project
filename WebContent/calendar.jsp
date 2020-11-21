@@ -650,7 +650,7 @@ header {
                     </li>
                     <li class="day">
                         <div class="date">29</div>  
-                                     <div class="event">
+                            <div class="event">
                             <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
                             	<h3>10 Game</h3>
                             </button>
