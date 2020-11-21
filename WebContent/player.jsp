@@ -14,30 +14,32 @@
       border-radius: 10;
       background-color: #6699FF;
       text-color: white;
-      height: 60px;
+      height: 80px;
     }
 	.navbar-brand>img{
 		height: 100%;
 		padding: 100px;
 		width: auto
 	}
-		.navbar-brand{
-			background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
-			width: 100px;
-			margin-right: 10px;
-		}
+	.navbar-brand{
+		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
+		width: 100px;
+		margin-right: 10px;
+		margin-top: 10px;
+	}
 		.jumbotron {
 	 	margin-top:10px;
-        background: url("https://pbs.twimg.com/media/EBl53g5WsAAbzHO?format=jpg&name=4096x4096");
+        background: url(https://www.footballist.co.kr/news/photo/202004/123085_50194_2647.png);
         background-size:cover;
-        height: 600px;
+        height: 400px;
         color:white;
          }
-     	ul li a { 
+     	 ul li a { 
             text-decoration: none; 
             font-size: 19px;  
             color: white; 
             position: relative; 
+            margin-top:10px;
   
         } 
         ul li a::before { 

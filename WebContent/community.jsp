@@ -9,12 +9,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-    .navbar {
+   .navbar {
       margin-bottom: 0;
       border-radius: 10;
       background-color: #6699FF;
       text-color: white;
-      height: 60px;
+      height: 80px;
     }
 	.navbar-brand>img{
 		height: 100%;
@@ -25,6 +25,7 @@
 		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
 		width: 100px;
 		margin-right: 10px;
+		margin-top: 10px;
 	}
 	.jumbotron {
 	 	margin-top:10px;
@@ -38,6 +39,7 @@
             font-size: 19px;  
             color: white; 
             position: relative; 
+            margin-top:10px;
   
         } 
         ul li a::before { 
@@ -59,6 +61,30 @@
     	max-height: 300px;
     	overflow-x: hidden;
 	}
+	/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
     footer {
       background-color: #ffffff;
       padding: 25px;
@@ -278,26 +304,86 @@
 <div class="jumbotron">
 </div>
 
-<div class="container-fluid text-center">    
-  <div class="col content">
-    <div class="col-sm-2 sidenav">
-    </div>
-  </div>
-</div>
-  
-<div class="container-fluid text-center">    
+<div class="container-fluid">
   <div class="row content">
-    <div class="col-sm-2 sidenav">
+    <div class="col-sm-3 sidenav">
+      <h4>커뮤니티</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">팀 토론방</a></li>
+        <li><a href="#section2">선수 토론방</a></li>
+        <li><a href="#section3">감독 토론방</a></li>
+        <li><a href="#section3">손흥민 토론방</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search title..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
     </div>
-    <div class="col-sm-8 text-center"> 
-      <h1>일정</h1>
-      <p></p>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
       <hr>
-    </div>
-    <div class="col-sm-2 sidenav">
+      <h2>손흥민 월클이다</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> 2020-11-21 PM 05:15</h5>
+      <h5><span class="label label-danger">손흥민</span> <span class="label label-primary">토트넘</span></h5><br>
+      <p>손흥민 현재 스텟으로는 월클임. 진심 좆털링 보다 100만배 잘함 골결에서 차이 ㅈ됨</p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>맹구는 맹구했다</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> 2020-11-21 PM 05:40</h5>
+      <h5><span class="label label-success">맨체스터 유나이티드</span></h5><br>
+      <p>옛날 맨유에 비해서 지금 맨유는 겉멋충 폭우바, 댄싱머신 ㅈ가드, 성매매자 그린우드 같은 간신들이 맨유 좀먹고 있음 감독도 빨리 리더쉽있는 사람으로 바뀌지 않는 이상 리즈 꼴날거다</p>
+      <hr>
+
+      <h4>댓글 달기:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">제출</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> 댓글:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://resources.premierleague.com/premierleague/badges/50/t1.png" class="img-circle" height="50" width="50" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>황족 맨유 <small>2020-11-21 PM 05:50</small></h4>
+          <p>ㅆㅇㅈ 그립다 옜날이여....</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://resources.premierleague.com/premierleague/badges/50/t3.png" class="img-circle" height="50" width="50" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>좆 페르시 <small>2020-11-21 PM 05:53</small></h4>
+          <p>배부른 소리하네.. 우리는...</p>
+          <br>
+          <p><span class="badge">1</span> 댓글:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://resources.premierleague.com/premierleague/badges/50/t14.png" class="img-circle" height="40" width="40" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>리일딱 <small>2020-11-21 PM 05:55</small></h4>
+              <p>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ4스날 ㅆㅇㅈ 아 맞다 이젠 9스날인가?</p>
+              <br>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 

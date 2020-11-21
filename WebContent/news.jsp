@@ -14,7 +14,7 @@
       border-radius: 10;
       background-color: #6699FF;
       text-color: white;
-      height: 60px;
+      height: 80px;
     }
 	.navbar-brand>img{
 		height: 100%;
@@ -25,6 +25,7 @@
 		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
 		width: 100px;
 		margin-right: 10px;
+		margin-top: 10px;
 	}
 	.jumbotron {
 	 	margin-top:10px;
@@ -38,8 +39,9 @@
             font-size: 19px;  
             color: white; 
             position: relative; 
+            margin-top:10px;
   
-        } 
+        } s
         ul li a::before { 
             content: ""; 
             width: 0px; 
@@ -290,7 +292,7 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-center"> 
-      <h1>일정</h1>
+      <h1>뉴스</h1>
       <p></p>
       <hr>
     </div>

@@ -14,23 +14,24 @@
       border-radius: 10;
       background-color: #6699FF;
       text-color: white;
-      height: 60px;
+      height: 80px;
     }
 	.navbar-brand>img{
 		height: 100%;
 		padding: 100px;
-		width: auto
+		width: auto;
 	}
 	.navbar-brand{
 		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
 		width: 100px;
 		margin-right: 10px;
+		margin-top: 10px;
 	}
 	.jumbotron {
 	 	margin-top:10px;
         background: url("https://img.allthatboots.com/image/file1_1521677799.png");
         background-size:cover;
-        height: 500px;
+        height: 400px;
         color:white;
          }
      ul li a { 
@@ -38,6 +39,7 @@
             font-size: 19px;  
             color: white; 
             position: relative; 
+            margin-top:10px;
   
         } 
         ul li a::before { 
@@ -254,7 +256,7 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">랭킹
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="player_rank.jsp">득점 순위</a></li>
+          <li><a href="player_rank.jsp"><img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" width="20px" height="auto"/>득점 순위</a></li>
           <li><a href="support_rank.jsp">도움 순위</a></li>
           <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>
@@ -281,7 +283,8 @@
     <h3>10월 이달의 선수 손흥민</h3>
   </div>
 </div>
-  
+
+
 <div class="container-fluid bg-3 text-center">    
   <h3>주간 EPL 이슈</h3><br>
   <div class="row">
@@ -323,38 +326,44 @@
       <img src="https://imgnews.pstatic.net/image/450/2020/11/15/0000068811_001_20201115171329779.png?type=w647" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </div>
-</div><br><br>
+</div>
+
+<br><br>
+<br><br>
+<br><br>
 
 <div class="container-fluid bg-3 text-center">    
   <h3>주간 EPL 영상</h3><br>
-  <div class="row">
-  	<div>
-    <p>[EPL역대 최고의 솔로골 투표]</p> 
-	<iframe width="300" height="180"
-		src="https://www.youtube.com/embed/n6hk4Ke25D8">
-	</iframe>
-	</div>
-	<div>
-	<p>[영국언론이 직접 발표한 EPL 최고의 선수]</p> 
-	<iframe width="300" height="180"
-		src="https://www.youtube.com/embed/7oN9p-VeqWc">
-	</iframe>
-	</div>
-	<div>
-	<p>[2020 EPL최악의 영입]</p> 
-	<iframe width="300" height="180"
-		src="https://www.youtube.com/embed/0OETsbjPNOg">
-	</iframe>
-	</div>
-	<div>
-	<p>[데브라이너의 슈팅 수준]</p> 
-	<iframe width="300" height="180"
-		src="https://www.youtube.com/embed/VEHTSmh30jA">
-	</iframe>
-	</div>
-  </div>
 </div><br>
 
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>[EPL역대 최고의 솔로골 투표]</p>
+      <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/n6hk4Ke25D8">
+	</iframe>
+    </div>
+    <div class="col-sm-3"> 
+      <p>[영국언론이 직접 발표한 EPL 최고의 선수]</p>
+     <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/7oN9p-VeqWc">
+	</iframe>
+    </div>
+    <div class="col-sm-3"> 
+      <p>[음바페vs볼란트]</p>
+      <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/2p_ILYkO91Q">
+	</iframe>
+    </div>
+    <div class="col-sm-3">
+      <p>[2020 EPL최악의 영입]</p>
+     <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/0OETsbjPNOg">
+	</iframe>
+    </div>
+  </div>
+</div><br><br>
 
 <footer class="container-fluid text-center">
   <p>copyright ⓒ비상하는 독수리 Corp. All Rights Reserved.</p>
