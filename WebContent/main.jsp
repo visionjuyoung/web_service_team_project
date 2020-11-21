@@ -284,6 +284,8 @@
   </div>
 </div>
 
+<hr>
+
 
 <div class="container-fluid bg-3 text-center">    
   <h3>주간 EPL 이슈</h3><br>
@@ -307,6 +309,8 @@
   </div>
 </div><br>
 
+<hr>
+
 <div class="container-fluid bg-3 text-center">    
   <div class="row">
     <div class="col-sm-3">
@@ -328,13 +332,14 @@
   </div>
 </div>
 
-<br><br>
-<br><br>
+<hr>
 <br><br>
 
 <div class="container-fluid bg-3 text-center">    
   <h3>주간 EPL 영상</h3><br>
 </div><br>
+
+<hr>
 
 <div class="container-fluid bg-3 text-center">    
   <div class="row">
@@ -364,6 +369,7 @@
     </div>
   </div>
 </div><br><br>
+<hr>
 
 <footer class="container-fluid text-center">
   <p>copyright ⓒ비상하는 독수리 Corp. All Rights Reserved.</p>

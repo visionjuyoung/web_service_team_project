@@ -65,6 +65,15 @@
     	max-height: 300px;
     	overflow-x: hidden;
 	}
+	.row.content {height: 450px}
+    
+    .sidenav {
+    	margin-top: 70px;
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
 	 body {
   	font-family: Tahoma;
 }
@@ -110,7 +119,7 @@ header {
   font-size: 13px;
 }
 #calendar .days li {
-  height: 300px;
+  height: 200px;
 }
 #calendar .days li:hover {
   background: #d3d3d3;
@@ -128,12 +137,12 @@ header {
 #calendar .event {
   clear: both;
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   border-radius: 4px;
   padding: 5px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 5px;
-  line-height: 14px;
+  line-height: 10px;
   background: #e4f2f2;
   border: 1px solid #b5dbdc;
   color: #009aaf;
@@ -163,6 +172,14 @@ header {
     float: none;
   }
 }
+ .row.content {height: 1120px}
+    
+    .sidenav {
+    	
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
     footer {
       background-color: #ffffff;
       padding: 25px;
@@ -381,30 +398,90 @@ header {
 
 <div class="jumbotron">
 </div>
-
-<div class="container-fluid text-center">    
-  <div class="col content">
-    <div class="col-sm-2 sidenav">
-    </div>
-  </div>
+<div class="col-sm-12 text-center">
+	<h1>일정</h1>
+	<hr>
 </div>
   
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
-    </div>
-    <div class="col-sm-8 text-center"> 
-      <h1>일정</h1>
-      <p></p>
-      <hr>
-    </div>
-    <div class="col-sm-2 sidenav">
-      </div>
-    </div>
+    <div class="col-sm-1 sidenav">
+    <div>
+    <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+         <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" />
+  </button>
+    
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" />
+  </button>
+ 
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" />
+  </button>
+  
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" />
+  </button>
+  <button type="button" class="btn btn-xs">
+          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" />
+  </button>
   </div>
-</div>
-
-<div id="calendar-wrap">
+  
+    </div>
+    <div class="col-sm-11 text-center"> 
+      <div id="calendar-wrap">
             <header>
                 <h1>2020년 12월</h1>
             </header>
@@ -428,6 +505,11 @@ header {
                     <li class="day">
                         <div class="date">1</div>      
                         <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>2 Game</h3>
+                            </button>
+                        </div>  
+                        <div class="event">
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
@@ -440,7 +522,7 @@ header {
                                 2:30pm to 3:30pm
                             </div>
                             </div>
-                        </div>                  
+                        </div>                
                     </li>
                     <li class="day">
                         <div class="date">2</div>                     
@@ -457,7 +539,12 @@ header {
                 </ul>
                 <ul class="days">
                     <li class="day">
-                        <div class="date">6</div>                      
+                        <div class="date">6</div>   
+                                 <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>10 Game</h3>
+                            </button>
+                        </div>             
                     </li>
                     <li class="day">
                         <div class="date">7</div>                      
@@ -480,19 +567,39 @@ header {
                 </ul>
                 <ul class="days">
                     <li class="day">
-                        <div class="date">13</div>                     
+                        <div class="date">13</div>   
+                         <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>8 Game</h3>
+                            </button>
+                        </div>                     
                     </li>
                     <li class="day">
-                        <div class="date">14</div>                     
+                        <div class="date">14</div>  
+                         <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>2 Game</h3>
+                            </button>
+                        </div>  
                     </li>
                     <li class="day">
                         <div class="date">15</div>                     
                     </li>
                     <li class="day">
-                        <div class="date">16</div>                     
+                        <div class="date">16</div>  
+                         <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>8 Game</h3>
+                            </button>
+                        </div>  
                     </li>
                     <li class="day">
-                        <div class="date">17</div>
+                        <div class="date">17</div>     
+                         <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>2 Game</h3>
+                            </button>
+                        </div>                  
                     </li>
                     <li class="day">
                         <div class="date">18</div>                     
@@ -503,7 +610,12 @@ header {
                 </ul>
                 <ul class="days">
                     <li class="day">
-                        <div class="date">20</div>                     
+                        <div class="date">20</div> 
+                        <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>10 Game</h3>
+                            </button>
+                        </div>       
                     </li>
                     <li class="day">
                         <div class="date">21</div>                     
@@ -526,13 +638,23 @@ header {
                 </ul>
                 <ul class="days">
                     <li class="day">
-                        <div class="date">27</div>                     
+                        <div class="date">27</div>   
+                        <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>10 Game</h3>
+                            </button>
+                        </div>                    
                     </li>
                     <li class="day">
                         <div class="date">28</div>
                     </li>
                     <li class="day">
-                        <div class="date">29</div>                     
+                        <div class="date">29</div>  
+                                     <div class="event">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            	<h3>10 Game</h3>
+                            </button>
+                        </div>         
                     </li>
                     <li class="day">
                         <div class="date">30</div>                     
@@ -572,29 +694,13 @@ header {
                 </ul>
             </div>
         </div>
-        
-        <div class="container-fluid text-center">    
-  <div class="col content">
-    <div class="col-sm-2 sidenav">
     </div>
-  </div>
-</div>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-    </div>
-    <div class="col-sm-8 text-center"> 
-      <h1></h1>
-      <p></p>
-      <hr>
-    </div>
-    <div class="col-sm-2 sidenav">
-      </div>
     </div>
   </div>
 </div>
 
+
+       
 
 
 <footer class="container-fluid text-center">

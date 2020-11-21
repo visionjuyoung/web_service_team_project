@@ -280,6 +280,23 @@
 <div class="jumbotron">
 </div>
 
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+    </div>
+    <div class="col-sm-8 text-center"> 
+      <h1>선수</h1>
+      <p></p>
+      <hr>
+    </div>
+    <div class="col-sm-2 sidenav">
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
 <div class="contanier-fluid text-center">
 <div class="btn-group">
   <button type="button" class="btn btn-primary btn-xs">
@@ -349,21 +366,6 @@
 <div class="container-fluid text-center">    
   <div class="col content">
     <div class="col-sm-2 sidenav">
-    </div>
-  </div>
-</div>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-    </div>
-    <div class="col-sm-8 text-center"> 
-      <h1>선수</h1>
-      <p></p>
-      <hr>
-    </div>
-    <div class="col-sm-2 sidenav">
-      </div>
     </div>
   </div>
 </div>
