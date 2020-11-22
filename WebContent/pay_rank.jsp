@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
     .navbar {
-      margin-bottom: 0;
+      margin-bottom: 10;
       border-radius: 10;
       background-color: #6699FF;
       text-color: white;
@@ -283,7 +283,45 @@
   </div>
 </nav>
 
-<div class="jumbotron">
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10 text-left"> 
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://wallpapercave.com/wp/wp2086363.png" alt="image1">
+    </div>
+
+    <div class="item">
+      <img src="https://wallpapercave.com/wp/wp3737390.jpg" alt="image2">
+    </div>
+
+    <div class="item">
+      <img src="https://resources.premierleague.com/premierleague/photo/2020/09/11/3052bf5d-3e41-4ead-bdd9-16259804e3d9/PL_ATHEM_COVER_2020_1C_WEB_BANNER_HD_RGB.jpg" alt="image3">
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+    <div class="col-sm-1">
+    </div>
+  </div>
 </div>
 
 <div class="container-fluid text-center">    

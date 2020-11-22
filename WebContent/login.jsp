@@ -5,10 +5,6 @@
   <title>축알못도 알수 있는 EPL통계 사이트</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -23,7 +19,7 @@
 	.navbar-brand>img{
 		height: 100%;
 		padding: 100px;
-		width: auto
+		width: auto;
 	}
 	.navbar-brand{
 		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
@@ -33,12 +29,12 @@
 	}
 	.jumbotron {
 	 	margin-top:10px;
-        background: url("https://i1.wp.com/media.premiumtimesng.com/wp-content/files/2020/09/Premier-League-clubs-min-scaled.jpg?fit=2560%2C1440&ssl=1");
+        background: url("https://img.allthatboots.com/image/file1_1521677799.png");
         background-size:cover;
-        height: 600px;
+        height: 400px;
         color:white;
          }
-      ul li a { 
+     ul li a { 
             text-decoration: none; 
             font-size: 19px;  
             color: white; 
@@ -64,132 +60,17 @@
    	 	height: auto;
     	max-height: 300px;
     	overflow-x: hidden;
-	}
-	.row.content {height: 450px}
-    
-    .sidenav {
-    	margin-top: 70px;
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-	 body {
-  	font-family: Tahoma;
-}
-header {
-  text-align: center;
-}
-#calendar {
-  width: 90%;
-  margin-left:30px;
-  margin-right:30px;
-}
-#calendar a {
-  color: #8e352e;
-  text-decoration: none;
-}
-#calendar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-#calendar li {
-  display: block;
-  float: left;
-  width: 14.342%;
-  padding: 5px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  margin-right: -1px;
-  margin-bottom: -1px;
-}
-#calendar ul.weekdays {
-  height: 40px;
-  background: #8e352e;
-}
-#calendar ul.weekdays li {
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 20px;
-  border: none !important;
-  padding: 10px 6px;
-  color: #fff;
-  font-size: 13px;
-}
-#calendar .days li {
-  height: 200px;
-}
-#calendar .days li:hover {
-  background: #d3d3d3;
-}
-#calendar .date {
-  text-align: center;
-  margin-bottom: 5px;
-  padding: 4px;
-  background: #333;
-  color: #fff;
-  width: 20px;
-  border-radius: 50%;
-  float: right;
-}
-#calendar .event {
-  clear: both;
-  display: block;
-  font-size: 12px;
-  border-radius: 4px;
-  padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  line-height: 10px;
-  background: #e4f2f2;
-  border: 1px solid #b5dbdc;
-  color: #009aaf;
-  text-decoration: none;
-}
-#calendar .event-desc {
-  color: #666;
-  margin: 3px 0 7px 0;
-  text-decoration: none;
-}
-#calendar .other-month {
-  background: #f5f5f5;
-  color: #666;
-}
-@media (max-width: 768px) {
-  #calendar .weekdays, #calendar .other-month {
-    display: none;
-  }
-  #calendar li {
-    height: auto !important;
-    border: 1px solid #ededed;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: -1px;
-  }
-  #calendar .date {
-    float: none;
-  }
-}
- .row.content {height: 1120px}
-    
-    .sidenav {
-    	
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
+	} 
     footer {
       background-color: #ffffff;
       padding: 25px;
-    } 
+    }
+    
   </style>
-  
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-sm">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -396,32 +277,29 @@ header {
   </div>
 </nav>
 
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-1">
-    </div>
-    <div class="col-sm-10 text-left"> 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" width="100%" height="auto">
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
+  <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="https://wallpapercave.com/wp/wp2086363.png" alt="image1">
+      <img src="https://wallpapercave.com/wp/wp1830648.jpg" alt="Los Angeles">
     </div>
 
     <div class="item">
-      <img src="https://wallpapercave.com/wp/wp3737390.jpg" alt="image2">
+      <img src="https://wallpapercave.com/wp/wp3737390.jpg" alt="Chicago">
     </div>
 
     <div class="item">
-      <img src="https://resources.premierleague.com/premierleague/photo/2020/09/11/3052bf5d-3e41-4ead-bdd9-16259804e3d9/PL_ATHEM_COVER_2020_1C_WEB_BANNER_HD_RGB.jpg" alt="image3">
+      <img src="https://resources.premierleague.com/premierleague/photo/2020/09/11/3052bf5d-3e41-4ead-bdd9-16259804e3d9/PL_ATHEM_COVER_2020_1C_WEB_BANNER_HD_RGB.jpg" alt="New York">
     </div>
   </div>
-  
+
+  <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <span class="sr-only">Previous</span>
@@ -431,316 +309,93 @@ header {
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<hr>
+
+
+<div class="container-fluid bg-3 text-center">    
+  <h3>주간 EPL 이슈</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>손케 듀오 환상의 짝궁</p>
+      <img src="https://imgnews.pstatic.net/image/076/2020/11/15/2020111601001378200091911_20201115200024720.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
     </div>
-    <div class="col-sm-1">
+    <div class="col-sm-3"> 
+      <p>코치 캐릭 누가보면 현역으로 알거야</p>
+      <img src="https://imgnews.pstatic.net/image/108/2020/11/15/0002909886_001_20201115194933992.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>쿨리발리 epl 오나?</p>
+      <img src="https://imgnews.pstatic.net/image/139/2020/11/15/0002142183_001_20201115194602108.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>레알 레길론 바이백 가능성↑</p>
+      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108605_001_20201115191031830.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<hr>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>현지도 인정한 손케 듀오!</p>
+      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108603_001_20201115181038337.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>알리의 미래는 오리무중</p>
+      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108598_001_20201115170608107.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>네빌이 생각하는 우승후보 '리버풀'</p>
+      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108601_001_20201115174535927.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>페르난데스 맨유온 이유 '우승'</p>
+      <img src="https://imgnews.pstatic.net/image/450/2020/11/15/0000068811_001_20201115171329779.png?type=w647" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </div>
 </div>
 
-<div class="col-sm-12 text-center">
-	<h1>일정</h1>
-	<hr>
-</div>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-1 sidenav">
-    <div>
-    <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-         <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" />
-  </button>
-    
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" />
-  </button>
- 
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" />
-  </button>
-  
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" />
-  </button>
-  <button type="button" class="btn btn-xs">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" />
-  </button>
-  </div>
-  
+<hr>
+<br><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3>주간 EPL 영상</h3><br>
+</div><br>
+
+<hr>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>[EPL역대 최고의 솔로골 투표]</p>
+      <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/n6hk4Ke25D8">
+	</iframe>
     </div>
-    <div class="col-sm-11 text-center"> 
-      <div id="calendar-wrap">
-            <header>
-                <h1>2020년 12월</h1>
-            </header>
-            <div id="calendar">
-                <ul class="weekdays">
-                    <li>Sunday</li>
-                    <li>Monday</li>
-                    <li>Tuesday</li>
-                    <li>Wednesday</li>
-                    <li>Thursday</li>
-                    <li>Friday</li>
-                    <li>Saturday</li>
-                </ul>
-                <ul class="days">
-                    <li class="day other-month">
-                        <div class="date">29</div>                     
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">30</div>                  
-                    </li>
-                    <li class="day">
-                        <div class="date">1</div>      
-                        <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>2 Game</h3>
-                            </button>
-                        </div>  
-                        <div class="event">
-                            <div class="event-desc text-center">
-                                <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
-                                srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
-                            	<span class="visuallyHidden">vs</span>
-                            	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
-                            	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
-                            	 <div class="event-time">
-                                2:30pm to 3:30pm
-                            </div>
-                            </div>
-                        </div>                
-                    </li>
-                    <li class="day">
-                        <div class="date">2</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">3</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">4</div>                      
-                    </li>
-                    <li class="day">
-                        <div class="date">5</div>
-                    </li>
-                </ul>
-                <ul class="days">
-                    <li class="day">
-                        <div class="date">6</div>   
-                                 <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>10 Game</h3>
-                            </button>
-                        </div>             
-                    </li>
-                    <li class="day">
-                        <div class="date">7</div>                      
-                    </li>
-                    <li class="day">
-                        <div class="date">8</div>                      
-                    </li>
-                    <li class="day">
-                        <div class="date">9</div>                      
-                    </li>
-                    <li class="day">
-                        <div class="date">10</div>
-                    </li>
-                    <li class="day">
-                        <div class="date">11</div>                      
-                    </li>
-                    <li class="day">
-                        <div class="date">12</div>                      
-                    </li>
-                </ul>
-                <ul class="days">
-                    <li class="day">
-                        <div class="date">13</div>   
-                         <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>8 Game</h3>
-                            </button>
-                        </div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">14</div>  
-                         <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>2 Game</h3>
-                            </button>
-                        </div>  
-                    </li>
-                    <li class="day">
-                        <div class="date">15</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">16</div>  
-                         <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>8 Game</h3>
-                            </button>
-                        </div>  
-                    </li>
-                    <li class="day">
-                        <div class="date">17</div>     
-                         <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>2 Game</h3>
-                            </button>
-                        </div>                  
-                    </li>
-                    <li class="day">
-                        <div class="date">18</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">19</div>                     
-                    </li>
-                </ul>
-                <ul class="days">
-                    <li class="day">
-                        <div class="date">20</div> 
-                        <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>10 Game</h3>
-                            </button>
-                        </div>       
-                    </li>
-                    <li class="day">
-                        <div class="date">21</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">22</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">23</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">24</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">25</div>
-                    </li>
-                    <li class="day">
-                        <div class="date">26</div>                     
-                    </li>
-                </ul>
-                <ul class="days">
-                    <li class="day">
-                        <div class="date">27</div>   
-                        <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>10 Game</h3>
-                            </button>
-                        </div>                    
-                    </li>
-                    <li class="day">
-                        <div class="date">28</div>
-                    </li>
-                    <li class="day">
-                        <div class="date">29</div>  
-                            <div class="event">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
-                            	<h3>10 Game</h3>
-                            </button>
-                        </div>         
-                    </li>
-                    <li class="day">
-                        <div class="date">30</div>                     
-                    </li>
-                    <li class="day">
-                        <div class="date">31</div>                     
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">1</div>                     
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">2</div>                     
-                    </li>
-                </ul>
-                <ul class="days">
-                    <li class="day other-month">
-                        <div class="date">3</div>                     
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">4</div>                   
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">5</div>                      
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">6</div>                      
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">7</div>                      
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">8</div>                      
-                    </li>
-                    <li class="day other-month">
-                        <div class="date">9</div>                      
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <div class="col-sm-3"> 
+      <p>[영국언론이 직접 발표한 EPL 최고의 선수]</p>
+     <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/7oN9p-VeqWc">
+	</iframe>
     </div>
+    <div class="col-sm-3"> 
+      <p>[음바페vs볼란트]</p>
+      <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/2p_ILYkO91Q">
+	</iframe>
+    </div>
+    <div class="col-sm-3">
+      <p>[2020 EPL최악의 영입]</p>
+     <iframe width="100%" height="300"
+		src="https://www.youtube.com/embed/0OETsbjPNOg">
+	</iframe>
     </div>
   </div>
-</div>
-
-
-       
-
+</div><br><br>
+<hr>
 
 <footer class="container-fluid text-center">
   <p>copyright ⓒ비상하는 독수리 Corp. All Rights Reserved.</p>
