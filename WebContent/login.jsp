@@ -9,9 +9,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  body{
-  	background-color: #DAD9FF;
-  }
+  	body{
+  		background-color: #DAD9FF;
+  	}
     .navbar {
       margin-bottom: 10;
       border-radius: 10;
@@ -64,6 +64,256 @@
     	max-height: 300px;
     	overflow-x: hidden;
 	} 
+	a {
+  color: #92badd;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+/* TABS */
+
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+
+
+/* FORM TYPOGRAPHY*/
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+  background-color: #39ace7;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type=text] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder {
+  color: #cccccc;
+}
+
+
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #56baed;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+  width: 100%;
+}
+
+
+
+
+
+*:focus {
+    outline: none;
+} 
+
+#icon {
+  width:60%;
+}
    footer {
       background-color: #6699FF;
       padding: 25px;
@@ -280,124 +530,40 @@
   </div>
 </nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" width="100%" height="auto">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4 text-left"> 
+      
+      <div class="wrapper fadeInDown">
+  <div id="formContent">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="https://wallpapercave.com/wp/wp1830648.jpg" alt="Los Angeles">
+    <div class="fadeIn first">
+    <br>
+      <img src="https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png" id="icon" alt="로그인" />
+    </div>
+<br>
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="아이디">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="패스워드">
+      <input type="submit" class="fadeIn fourth" value="로그인">
+    </form>
+
+    <div id="formFooter">
+    <a class="underlineHover" href="#">회원가입</a>
     </div>
 
-    <div class="item">
-      <img src="https://wallpapercave.com/wp/wp3737390.jpg" alt="Chicago">
-    </div>
-
-    <div class="item">
-      <img src="https://resources.premierleague.com/premierleague/photo/2020/09/11/3052bf5d-3e41-4ead-bdd9-16259804e3d9/PL_ATHEM_COVER_2020_1C_WEB_BANNER_HD_RGB.jpg" alt="New York">
-    </div>
   </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <br>
 </div>
-
-<hr>
-
-
-<div class="container-fluid bg-3 text-center">    
-  <h3>주간 EPL 이슈</h3><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <p>손케 듀오 환상의 짝궁</p>
-      <img src="https://imgnews.pstatic.net/image/076/2020/11/15/2020111601001378200091911_20201115200024720.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
+      
     </div>
-    <div class="col-sm-3"> 
-      <p>코치 캐릭 누가보면 현역으로 알거야</p>
-      <img src="https://imgnews.pstatic.net/image/108/2020/11/15/0002909886_001_20201115194933992.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>쿨리발리 epl 오나?</p>
-      <img src="https://imgnews.pstatic.net/image/139/2020/11/15/0002142183_001_20201115194602108.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>레알 레길론 바이백 가능성↑</p>
-      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108605_001_20201115191031830.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br>
-
-<hr>
-
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>현지도 인정한 손케 듀오!</p>
-      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108603_001_20201115181038337.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>알리의 미래는 오리무중</p>
-      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108598_001_20201115170608107.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>네빌이 생각하는 우승후보 '리버풀'</p>
-      <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108601_001_20201115174535927.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>페르난데스 맨유온 이유 '우승'</p>
-      <img src="https://imgnews.pstatic.net/image/450/2020/11/15/0000068811_001_20201115171329779.png?type=w647" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-4">
     </div>
   </div>
 </div>
 
-<hr>
-<br><br>
-
-<div class="container-fluid bg-3 text-center">    
-  <h3>주간 EPL 영상</h3><br>
-</div><br>
-
-<hr>
-
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>[EPL역대 최고의 솔로골 투표]</p>
-      <iframe width="100%" height="300"
-		src="https://www.youtube.com/embed/n6hk4Ke25D8">
-	</iframe>
-    </div>
-    <div class="col-sm-3"> 
-      <p>[영국언론이 직접 발표한 EPL 최고의 선수]</p>
-     <iframe width="100%" height="300"
-		src="https://www.youtube.com/embed/7oN9p-VeqWc">
-	</iframe>
-    </div>
-    <div class="col-sm-3"> 
-      <p>[음바페vs볼란트]</p>
-      <iframe width="100%" height="300"
-		src="https://www.youtube.com/embed/2p_ILYkO91Q">
-	</iframe>
-    </div>
-    <div class="col-sm-3">
-      <p>[2020 EPL최악의 영입]</p>
-     <iframe width="100%" height="300"
-		src="https://www.youtube.com/embed/0OETsbjPNOg">
-	</iframe>
-    </div>
-  </div>
-</div><br><br>
 <hr>
 
 <footer class="container-fluid text-center">

@@ -123,6 +123,7 @@ header {
 }
 #calendar .days li {
   height: 200px;
+  background: #ffffff;
 }
 #calendar .days li:hover {
   background: #d3d3d3;
@@ -132,7 +133,7 @@ header {
   margin-bottom: 5px;
   padding: 4px;
   background: #333;
-  color: #fff;
+  color: #ffffff;
   width: 20px;
   border-radius: 50%;
   float: right;
@@ -459,17 +460,17 @@ header {
     </div>
     <div>
     <div>
-    <button type="button" class="btn btn-xs btn-default">
+    <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x"/>
   		  <p>Arsenal<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-default">
+  <button type="button" class="btn btn-xs btn-primary">
          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
   		<p>Aston villa<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" />
   		<p>Brighton<p>
   </button>
@@ -478,16 +479,16 @@ header {
   <br>
   
   <div>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" />
   <p>Burnley<p>
   </button>
     
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" />
   <p>chelsea<p>
   </button>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" />
  <p>cp fc<p>
   </button>
@@ -496,16 +497,16 @@ header {
   <br>
   
   <div>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" />
    <p>Everton<p>
   </button>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" />
    <p>Fulfam<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" />
    <p>leeds<p>
   </button>
@@ -514,16 +515,16 @@ header {
   <br>
   
    <div>
-  <button type="button" class="btn btn-xs btn-default">
+  <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" />
   <p>leicester<p>
   </button>
  
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" />
   <p>Liverpool<p>
   </button>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" />
   <p>Man.city<p>
   </button>
@@ -532,16 +533,16 @@ header {
    <br>
   
    <div>
-  <button type="button" class="btn btn-xs btn-default">
+  <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" />
   <p>Man.utd<p>
   </button>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" />
   <p>Nu fc<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" />
     <p>Sheffield<p>
   </button>
@@ -550,16 +551,16 @@ header {
    <br>
   
    <div>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" />
    <p>sh fc<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-default">
+  <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" />
    <p>Tottenham<p>
   </button>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" />
    <p>Wba<p>
   </button>
@@ -568,11 +569,11 @@ header {
    <br>
   
    <div>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" />
   <p>Westham<p>
   </button>
-  <button type="button" class="btn btn-xs btn-default">
+   <button type="button" class="btn btn-xs btn-primary">
           <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" />
   <p>Wolves<p>
   </button>
@@ -596,14 +597,14 @@ header {
                     <li>Saturday</li>
                 </ul>
                 <ul class="days">
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">29</div>                     
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">30</div>                  
                     </li>
                     <li class="day">
-                        <div class="date">1</div>      
+                        <div class="date" >1</div>      
                         <div class="event">
                             <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
                             	<h3>2 Game</h3>
@@ -762,33 +763,33 @@ header {
                     <li class="day">
                         <div class="date">31</div>                     
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">1</div>                     
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">2</div>                     
                     </li>
                 </ul>
                 <ul class="days">
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">3</div>                     
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">4</div>                   
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">5</div>                      
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">6</div>                      
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">7</div>                      
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">8</div>                      
                     </li>
-                    <li class="day other-month">
+                    <li class="day other-month" style="background: #f2f2f2">
                         <div class="date">9</div>                      
                     </li>
                 </ul>
