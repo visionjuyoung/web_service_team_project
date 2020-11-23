@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
   body{
-  	background-color: #DAD9FF;
+  	background-color: #D9E5FF;
   }
     .navbar {
       margin-bottom: 10;
