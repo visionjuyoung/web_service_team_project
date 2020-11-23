@@ -100,7 +100,8 @@ h2 {
   border-radius: 10px 10px 10px 10px;
   background: #fff;
   padding: 30px;
-  width: 90%;
+  width: 100%;
+  height: 500px;
   max-width: 450px;
   position: relative;
   padding: 0px;
@@ -199,6 +200,36 @@ input[type=text]:placeholder {
   color: #cccccc;
 }
 
+input[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=password]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=password]:placeholder {
+  color: #cccccc;
+}
+
 
 
 /* ANIMATIONS */
@@ -283,6 +314,12 @@ input[type=text]:placeholder {
   animation-delay: 1s;
 }
 
+.fadeIn.fifth {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
 /* Simple CSS3 Fade-in Animation */
 .underlineHover:after {
   display: block;
@@ -302,10 +339,6 @@ input[type=text]:placeholder {
 .underlineHover:hover:after{
   width: 100%;
 }
-
-
-
-
 
 *:focus {
     outline: none;
@@ -545,15 +578,13 @@ input[type=text]:placeholder {
     </div>
 <br>
     <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="아이디">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="패스워드">
-      <input type="submit" class="fadeIn fourth" value="로그인">
+      <input type="text" id="login" class="fadeIn first" name="login" placeholder="아이디">
+      <input type="text" id="nick_name" class="fadeIn second" name="login" placeholder="닉네임">
+      <input type="password" id="password" class="fadeIn third" name="login" placeholder="패스워드">
+      <input type="password" id="password_correct" class="fadeIn fourth" name="login" placeholder="패스워드 확인">
+      <br>
+      <input type="submit" class="fadeIn fifth" value="회원가입">
     </form>
-
-    <div id="formFooter">
-    <a class="underlineHover" href="registration.jsp">회원가입</a>
-    </div>
-
   </div>
   <br>
 </div>
