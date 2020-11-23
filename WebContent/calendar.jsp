@@ -13,6 +13,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+  body{
+  	background-color: #DAD9FF;
+  }
     .navbar {
       margin-bottom: 10;
       border-radius: 10;
@@ -181,9 +184,9 @@ header {
     }
     
     footer {
-      background-color: #ffffff;
+      background-color: #6699FF;
       padding: 25px;
-    } 
+    }
   </style>
   
 </head>
