@@ -9,10 +9,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  body{
+ body{
   	background-color: #DAD9FF;
   }
-    .navbar {
+   .navbar {
       margin-bottom: 10;
       border-radius: 10;
       background-color: #6699FF;
@@ -32,9 +32,9 @@
 	}
 	.jumbotron {
 	 	margin-top:10px;
-        background: url("https://wallpapercave.com/wp/wp1830648.jpg");
+        background: url("https://www.teahub.io/photos/full/52-526081_english-premier-league-stadium.jpg");
         background-size:cover;
-        height: 800px;
+        height: 680px;
         color:white;
          }
      ul li a { 
@@ -44,7 +44,7 @@
             position: relative; 
             margin-top:10px;
   
-        } s
+        } 
         ul li a::before { 
             content: ""; 
             width: 0px; 
@@ -64,6 +64,30 @@
     	max-height: 300px;
     	overflow-x: hidden;
 	}
+	/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 200px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
     footer {
       background-color: #6699FF;
       padding: 25px;
@@ -331,7 +355,7 @@
     <div class="col-sm-2 sidenav text-center">
       <h4>커뮤니티</h4>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="news.jsp">뉴스</a></li>
+        <li  class="active"><a href="news.jsp">뉴스</a></li>
         <li><a href="community.jsp">응원</a></li>
       </ul><br>
     </div>
