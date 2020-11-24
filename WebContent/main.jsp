@@ -732,7 +732,7 @@
 <h3>주간 EPL 사진</h3>
 <br>
 
-  <div class="row">
+  <div class="row" style="background-color:white; padding:20px; -webkit-border-radius: 10px 10px 10px 10px; margin-left:10px; margin-left:10px">
     <div class="col-sm-3">
       <p>현지도 인정한 손케 듀오!</p>
       <img src="https://imgnews.pstatic.net/image/413/2020/11/15/0000108603_001_20201115181038337.jpg?type=w647" class="img-responsive" style="width:100%" alt="Image">
@@ -761,7 +761,7 @@
 
 <hr>
 
-<div class="container-fluid bg-3 text-center">    
+<div class="container-fluid bg-3 text-center" style="background-color:white; padding:20px; -webkit-border-radius: 10px 10px 10px 10px; margin-left:10px; margin-left:10px">    
   <div class="row">
     <div class="col-sm-3">
       <p>[EPL역대 최고의 솔로골 투표]</p>
