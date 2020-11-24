@@ -65,7 +65,7 @@
     	overflow-x: hidden;
 	}
 	/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 200px}
+    .row.content {height: 250px}
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -294,6 +294,7 @@
         <ul class="dropdown-menu">
           <li><a href="news.jsp">뉴스</a></li>
           <li><a href="community.jsp">응원</a></li>
+          <li><a href="my_squad.jsp">나만의 스쿼드</a></li>
         </ul>
       </li>
       </ul>
@@ -357,6 +358,7 @@
       <ul class="nav nav-pills nav-stacked">
         <li  class="active"><a href="news.jsp">뉴스</a></li>
         <li><a href="community.jsp">응원</a></li>
+        <li><a href="my_squad.jsp">나만의 스쿼드</a></li>
       </ul><br>
     </div>
 

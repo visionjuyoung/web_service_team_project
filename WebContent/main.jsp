@@ -328,6 +328,7 @@
         <ul class="dropdown-menu">
           <li><a href="news.jsp">뉴스</a></li>
           <li><a href="community.jsp">응원</a></li>
+          <li><a href="my_squad.jsp">나만의 스쿼드</a></li>
         </ul>
       </li>
       </ul>

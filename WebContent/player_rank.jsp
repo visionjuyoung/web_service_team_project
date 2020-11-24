@@ -309,6 +309,7 @@
         <ul class="dropdown-menu">
           <li><a href="news.jsp">뉴스</a></li>
           <li><a href="community.jsp">응원</a></li>
+          <li><a href="my_squad.jsp">나만의 스쿼드</a></li>
         </ul>
       </li>
       </ul>
@@ -400,7 +401,7 @@
             <td>1</td>
             <td>
             <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://w.namu.la/s/66f8070ad9282e5b63aa0c3087f34b22540c79c9512d800a1e01eb54e0dd4c49d3aeeb5b0b6121b131b60553a98f9ec9daae008e1c92f3a5e2a2edbf114442ada420cd8d39b304c143f0a84f4fe9e267821ff9eaa61857747a51a84bfd06d31c" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="100px" height="100px"/>
+            <img class="badge-image badge-image--50 js-badge-image" src="https://w.namu.la/s/66f8070ad9282e5b63aa0c3087f34b22540c79c9512d800a1e01eb54e0dd4c49d3aeeb5b0b6121b131b60553a98f9ec9daae008e1c92f3a5e2a2edbf114442ada420cd8d39b304c143f0a84f4fe9e267821ff9eaa61857747a51a84bfd06d31c" srcset="https://w.namu.la/s/66f8070ad9282e5b63aa0c3087f34b22540c79c9512d800a1e01eb54e0dd4c49d3aeeb5b0b6121b131b60553a98f9ec9daae008e1c92f3a5e2a2edbf114442ada420cd8d39b304c143f0a84f4fe9e267821ff9eaa61857747a51a84bfd06d31c" width="100px" height="100px"/>
             칼버트 르윈
            </div>
             </td>
