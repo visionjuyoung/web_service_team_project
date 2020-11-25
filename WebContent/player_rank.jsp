@@ -126,11 +126,11 @@
       <ul class="nav navbar-nav">
         <li><a href="main.jsp"> 홈</a></li>
         <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">팀
+        <a class="dropdown-toggle" data-toggle="dropdown" href="team.jsp">팀
         <span class="caret"></span></a>
-        <ul class="dropdown-menu scrollable-menu">
+       <ul class="dropdown-menu scrollable-menu">
            <li>
-                    <a target="_blank" href="        http://www.arsenal.com?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x" />
                             <span class="visuallyHidden">아스널 FC</span>
@@ -138,7 +138,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.avfc.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
                             <span class="visuallyHidden">아스톤 빌라 FC</span>
@@ -146,7 +146,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.brightonandhovealbion.com?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" />
                             <span class="visuallyHidden">브라이튼 앤 호브 알비온 FC</span>
@@ -154,7 +154,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.burnleyfootballclub.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" />
                             <span class="visuallyHidden">번리 FC</span>
@@ -162,7 +162,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.chelseafc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" />
                             <span class="visuallyHidden">첼시 FC</span>
@@ -170,7 +170,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.cpfc.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" />
                             <span class="visuallyHidden">크리스탈 팰리스 FC</span>
@@ -178,7 +178,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.evertonfc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" />
                             <span class="visuallyHidden">에버튼 FC</span>
@@ -186,7 +186,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.fulhamfc.com?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" />
                             <span class="visuallyHidden">풀럼 FC</span>
@@ -194,7 +194,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.leedsunited.com?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" />
                             <span class="visuallyHidden">리즈 유나이티드 FC</span>
@@ -202,7 +202,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.lcfc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" />
                             <span class="visuallyHidden">레스터 시티 FC</span>
@@ -210,7 +210,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.liverpoolfc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" />
                             <span class="visuallyHidden">리버풀 FC</span>
@@ -218,7 +218,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.mancity.com?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" />
                             <span class="visuallyHidden">맨체스터 시티 FC</span>
@@ -226,7 +226,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.manutd.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" />
                             <span class="visuallyHidden">맨체스터 유나이티드 FC</span>
@@ -234,7 +234,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.nufc.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" />
                             <span class="visuallyHidden">뉴캐슬 유나이티드 FC</span>
@@ -242,7 +242,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.sufc.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" />
@@ -251,7 +251,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.southamptonfc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" />
                             <span class="visuallyHidden">사우샘프턴 FC</span>
@@ -259,7 +259,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.tottenhamhotspur.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" />
                             <span class="visuallyHidden">토트넘 홋스퍼 FC</span>
@@ -267,7 +267,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.wba.co.uk?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                     <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" />
                             <span class="visuallyHidden">웨스트 브로미치 앨비언</span>
@@ -275,7 +275,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        http://www.whufc.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" />
                             <span class="visuallyHidden">웨스트햄 유나이티드 FC</span>
@@ -283,7 +283,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="        https://www.wolves.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link" role="menuitem">
+                    <a target="_blank" href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" />
                             <span class="visuallyHidden">울버햄튼 원더러스 FC</span>
