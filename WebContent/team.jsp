@@ -1,4 +1,11 @@
+<%@page import="dto.Team"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<jsp:useBean id="teamDao" class="dao.TeamDAO" scope="session" />
+<%
+	String id = request.getParameter("team");
+	Team team = teamDao.getTeamById(id);
+%>
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -219,18 +226,18 @@ header {
     <br>
     <div>
     <div>
-    <button type="button" class="btn btn-xs btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x"/>
+    <button type="button" class="btn btn-xs btn-link" onClick="location.href='team.jsp?team=1'">
+          <img class="badge-image badge-image--50 js-badge-image" src="images/arsenal_50x50.png" srcset="images/arsenal_50x50@x2.png 2x"/>
   		  <p>Arsenal<p>
   </button>
   
   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
-         <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" />
+         <a href="main.jsp"><img class="badge-image badge-image--50 js-badge-image" src="images/aston_villa_50x50.png" srcset="images/aston_villa_50x50@x2.png 2x" /></a>
   		<p>Aston villa<p>
   </button>
   
    <button type="button" class="btn btn-xs btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/brighton_and_hove_albion_50x50.png" srcset="images/brighton_and_hove_albion_50x50@x2.png 2x" />
   		<p>Brighton<p>
   </button>
   </div>
@@ -239,16 +246,16 @@ header {
   
   <div>
    <button type="button" class="btn btn-xs btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/burnley_50x50.png" srcset="images/burnley_50x50@x2.png 2x" />
   <p>Burnley<p>
   </button>
     
   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/chelsea_50x50.png" srcset="images/chelsea_50x50@x2.png 2x" />
   <p>chelsea<p>
   </button>
    <button type="button" class="btn btn-xs btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/crystal_palace_50x50.png" srcset="images/crystal_palace_50x50@x2.png 2x" />
  <p>cp fc<p>
   </button>
   </div>
@@ -257,16 +264,16 @@ header {
   
   <div>
    <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/everton_50x50.png" srcset="images/everton_50x50@x2.png 2x" />
    <p>Everton<p>
   </button>
    <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/fulham_50x50.png" srcset="images/fulham_50x50@x2.png 2x" />
    <p>Fulfam<p>
   </button>
   
    <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/leeds_united_50x50.png" srcset="images/leeds_united_50x50@x2.png 2x" />
    <p>leeds<p>
   </button>
   </div>
@@ -275,16 +282,16 @@ header {
   
    <div>
   <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/leicester_city_50x50.png" srcset="images/leicester_city_50x50@x2.png 2x" />
   <p>leicester<p>
   </button>
  
    <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/liverpool_50x50.png" srcset="images/liverpool_50x50@x2.png 2x" />
   <p>Liverpool<p>
   </button>
    <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/manchester_city_50x50.png" srcset="images/manchester_city_50x50@x2.png 2x" />
   <p>Man.city<p>
   </button>
    </div>
@@ -293,16 +300,16 @@ header {
   
    <div>
   <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image"src="images/manchester_united_50x50.png" srcset="images/manchester_united_50x50@x2.png 2x" />
   <p>Man.utd<p>
   </button>
    <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/newcastle_united_50x50.png" srcset="images/newcastle_united_50x50@x2.png 2x" />
   <p>Nu fc<p>
   </button>
   
    <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/sheffield_united.png" srcset="images/sheffield_united_50x50@x2.png 2x" />
     <p>Sheffield<p>
   </button>
    </div>
@@ -311,16 +318,16 @@ header {
   
    <div>
    <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/southampton_50x50.png" srcset="images/southampton_50x50@x2.png 2x" />
    <p>sh fc<p>
   </button>
   
   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/tottenham_hotspur_50x50.png" srcset="images/tottenham_hotspur_50x50@x2.png 2x" />
    <p>Tottenham<p>
   </button>
    <button type="button" class="btn btn-xs  btn-link">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/west_bromwich_albion_50x50.png" srcset="images/west_bromwich_albion_50x50@x2.png 2x" />
    <p>Wba<p>
   </button>
    </div>
@@ -329,11 +336,11 @@ header {
   
    <div>
    <button type="button" class="btn btn-xs  btn-link" style="margin-right:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/westham_united_50x50.png" srcset="images/westham_united_50x50@x2.png 2x" />
   <p>Westham<p>
   </button>
    <button type="button" class="btn btn-xs  btn-link" style="margin-left:20px">
-          <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" />
+          <img class="badge-image badge-image--50 js-badge-image" src="images/wolverhampton_wanderers_50x50.png" srcset="images/wolverhampton_wanderers_50x50@x2.png 2x" />
   <p>Wolves<p>
   </button>
   </div>
@@ -365,59 +372,59 @@ header {
     
         <tr class="active-row">
             <td style="background-color:#D9E5FF">정식명칭</td>
-            <th style=" text-align:center">Arsenal Football Club</th>
+            <th style=" text-align:center"><%=team.getFormName() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">별명</td>
-            <th style=" text-align:center">거너스, 사스날</th>
+            <th style=" text-align:center"><%=team.getNickname() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">창단</td>
-            <th style=" text-align:center">1866년 10월</th>
+            <th style=" text-align:center"><%=team.getFounDay() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">연고지</td>
-            <th style=" text-align:center">런던 이슬링턴 구</th>
+            <th style=" text-align:center"><%=team.getTown() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">구장</td>
-            <th style=" text-align:center">에미레이트 스타디움</th>
+            <th style=" text-align:center"><%=team.getStadium() %></th>
         </tr>
    
    		<tr class="active-row">
             <td style="background-color:#D9E5FF">라이벌</td>
-            <th style=" text-align:center">토트넘 홋스퍼, 첼시FC</th>
+            <th style=" text-align:center"><%=team.getRival() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">구단주</td>
-            <th style=" text-align:center">스톤 크론케</th>
+            <th style=" text-align:center"><%=team.getOwner() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">감독</td>
-            <th style=" text-align:center">미켈 아르테타</th>
+            <th style=" text-align:center"><%=team.getCoach() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">주장</td>
-            <th style=" text-align:center">피에르에메릭 오바메양</th>
+            <th style=" text-align:center"><%=team.getLeader()%></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">공식 웹사이트</td>
             <th style=" text-align:center">
-            <a class="underlineHover" href="https://www.arsenal.com/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link">공식사이트 이동</a>
+            <a class="underlineHover" href=<%=team.getSiteUrl() %>>공식사이트 이동</a>
             </th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">리그 우승 횟수</td>
-            <th style=" text-align:center">13회</th>
+            <th style=" text-align:center"><%=team.getChampionCount() %>회</th>
         </tr>	
 	</table>
 	
