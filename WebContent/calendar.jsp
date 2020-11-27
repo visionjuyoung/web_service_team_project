@@ -579,11 +579,22 @@ header {
                     <li class="day">
                         <div class="date" >1</div>      
                         <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func()">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day1()">
                             	<h3>2 Game</h3>
                             </button>
                             <script>
-  
+                            function func_day1() {     
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 80;                       
+
+  							    var q = document.getElementsByClassName("day1");
+  							    var k = window.open("sss.jsp","",'status=no, height=160, width=200, left='+ popupX + ', top='+ popupY);  							  
+  							    for(i=0; i<2; i++)
+							    {
+							      k.document.write(q[i].innerHTML);
+							      k.document.write('<hr>');
+							    } 
+                            }
                             </script>
                         </div>  
                         <div class="레스터 풀럼 event day1" style="display:none;">
@@ -632,20 +643,35 @@ header {
                     <li class="day">
                         <div class="date">6</div>   
                                  <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day6()">
                             	<h3>10 Game</h3>
                             </button>
+                            <script>
+                            function func_day6() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 450;                       
+
+  							    var q = document.getElementsByClassName("day6");
+  							    var k = window.open("sss.jsp","",'status=no, height=900, width=200, left='+ popupX + ', top='+ popupY); 
+  							    for(i=0; i<10; i++)
+  								  {
+  								  k.document.write(q[i].innerHTML);
+    							  k.document.write('<hr>');
+  								  } 							 
+  							  
+                            }
+                            </script>
                         </div>
                         <div class="ark" >
                          <div class="웨스트햄 맨유 event day6" style="display:none;">
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -655,11 +681,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -669,11 +695,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -683,11 +709,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -697,25 +723,25 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
                             </div>
                         </div>
-                         <div class="번리 에버튼 event" style="display:none;">
+                         <div class="번리 에버튼 event day6" style="display:none;">
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -725,11 +751,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -739,11 +765,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30x" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -753,11 +779,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -767,11 +793,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -802,9 +828,24 @@ header {
                     <li class="day">
                         <div class="date">13</div>   
                          <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day13()">
                             	<h3>8 Game</h3>
                             </button>
+                            <script>
+                            function func_day13() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 340;                       
+
+  							    var q = document.getElementsByClassName("day13");
+  							    var k = window.open("sss.jsp","day13",'status=no, height=680, width=200, left='+ popupX + ', top='+ popupY); 
+  							  	k.document.title="day13";
+  							    for(i=0; i<8; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>
                         </div>
                          <div class="울버햄튼 아스톤 event day13" style="display:none;">
                             <div class="event-desc text-center">
@@ -922,9 +963,23 @@ header {
                     <li class="day">
                         <div class="date">14</div>  
                          <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day14()">
                             	<h3>2 Game</h3>
                             </button>
+                            <script>
+                            function func_day14() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 80;                       
+
+  							    var q = document.getElementsByClassName("day14");
+  							    var k = window.open("sss.jsp","",'status=no, height=160, width=200, left='+ popupX + ', top='+ popupY); 
+  							    for(i=0; i<2; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>
                         </div>
                          <div class="레스터 브라이튼 event day14" style="display:none;">
                             <div class="event-desc text-center">
@@ -961,9 +1016,23 @@ header {
                     <li class="day">
                         <div class="date">16</div>  
                          <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day16()">
                             	<h3>8 Game</h3>
                             </button>
+                            <script>
+                            function func_day16() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 340;                       
+
+  							    var q = document.getElementsByClassName("day16");
+  							    var k = window.open("sss.jsp","",'status=no, height=680, width=200, left='+ popupX + ', top='+ popupY); 
+  							   for(i=0; i<8; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>
                         </div>
                          <div class="울버햄튼 첼시 event day16" style="display:none;">
                             <div class="event-desc text-center">
@@ -1081,9 +1150,23 @@ header {
                     <li class="day">
                         <div class="date">17</div>     
                          <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day17()">
                             	<h3>2 Game</h3>
                             </button>
+                            <script>
+                            function func_day17() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 80;                       
+
+  							    var q = document.getElementsByClassName("day17");
+  							    var k = window.open("sss.jsp","",'status=no, height=160, width=200, left='+ popupX + ', top='+ popupY); 
+  							    for(i=0; i<2; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>
                         </div>
                          <div class="맨시티 웨스트브롬 event day17" style="display:none;">
                             <div class="event-desc text-center">
@@ -1125,19 +1208,33 @@ header {
                     <li class="day">
                         <div class="date">20</div> 
                         <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day20()">
                             	<h3>10 Game</h3>
                             </button>
+                            <script>
+                            function func_day20() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 450;                       
+
+  							    var q = document.getElementsByClassName("day20");
+  							    var k = window.open("sss.jsp","",'status=no, height=900, width=200, left='+ popupX + ', top='+ popupY); 
+  							    for(i=0; i<10; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>
                         </div>
                          <div class="웨스트브롬 아스톤 event day20" style="display:none;">
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1147,11 +1244,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1161,11 +1258,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1175,11 +1272,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1189,11 +1286,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1203,11 +1300,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1217,11 +1314,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1231,11 +1328,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1245,11 +1342,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1259,11 +1356,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1293,19 +1390,33 @@ header {
                     <li class="day">
                         <div class="date">27</div>   
                         <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day27()">
                             	<h3>10 Game</h3>
-                            </button>                             
+                            </button>              
+                            <script>
+                            function func_day27() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 450;                       
+
+  							    var q = document.getElementsByClassName("day27");
+  							    var k = window.open("sss.jsp","",'status=no, height=900, width=200, left='+ popupX + ', top='+ popupY); 
+  							   for(i=0; i<10; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>               
                         </div>
                          <div class="울버햄튼 토트넘 event day27" style="display:none;">
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1315,11 +1426,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1329,11 +1440,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1343,11 +1454,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1357,11 +1468,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1371,11 +1482,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1385,11 +1496,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1399,11 +1510,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1413,11 +1524,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1427,11 +1538,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1444,19 +1555,33 @@ header {
                     <li class="day">
                         <div class="date">29</div>  
                             <div class="tt">
-                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2">
+                            <button style="background-color:#e4f2f2; border: 1px solid #e4f2f2" onclick="func_day29()">
                             	<h3>10 Game</h3>
-                            </button>                        
+                            </button>                    
+                            <script>
+                            function func_day29() {                           
+                            	var popupX = (document.body.offsetWidth / 2) - 100;
+                            	var popupY= (window.screen.height / 2) - 450;                       
+
+  							    var q = document.getElementsByClassName("day29");
+  							    var k = window.open("sss.jsp","",'status=no, height=900, width=200, left='+ popupX + ', top='+ popupY); 
+  							   for(i=0; i<10; i++)
+							  {
+							  k.document.write(q[i].innerHTML);
+							  k.document.write('<hr>');
+							  } 
+                            }
+                            </script>    
                         </div>
                          <div class="웨스트브롬 리즈 event day29" style="display:none;">
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1466,11 +1591,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1480,11 +1605,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1494,11 +1619,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1508,11 +1633,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1522,11 +1647,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1536,11 +1661,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1550,11 +1675,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1564,12 +1689,12 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
-                            	 <div class="event-time">
+                            	 width="30px" height="auto"/>
+                            	 <div class="event-time">                            	 
                                 1:00am 3:00am                            
                             </div>
                             </div>
@@ -1578,11 +1703,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="40px" height="auto"/>
+                                width="30px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="40px" height="auto"/>
+                            	 width="30px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
