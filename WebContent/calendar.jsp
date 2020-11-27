@@ -540,7 +540,7 @@ header {
   	</Script>
    <button type="button" onclick="date_All()" class="btn btn-xs  btn-link">
           <img class="badge-image badge-image--50 js-badge-image" src="https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png" srcset="https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png" width="80px" height="auto"/>
-    <p><br>All<p>
+    <p>All<p>
   </button>
    </div>
    	<Script>
@@ -590,11 +590,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 2:30am 4:30am                            
                             </div>
@@ -604,11 +604,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 5:00am 7:00am                            
                             </div>
@@ -641,11 +641,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -655,11 +655,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -669,11 +669,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -683,11 +683,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -697,11 +697,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -711,11 +711,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -725,11 +725,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -739,11 +739,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 0:00am 2:00am                            
                             </div>
@@ -753,11 +753,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -767,11 +767,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -810,11 +810,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -824,11 +824,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -838,11 +838,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -852,11 +852,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -866,11 +866,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -880,11 +880,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -894,11 +894,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -908,11 +908,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -930,11 +930,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -944,11 +944,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -969,11 +969,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -983,11 +983,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -997,11 +997,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -1011,11 +1011,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -1025,11 +1025,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -1039,11 +1039,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -1053,11 +1053,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -1067,11 +1067,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 4:45am 6:45am                            
                             </div>
@@ -1089,11 +1089,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 5:00am 7:00am                            
                             </div>
@@ -1103,11 +1103,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 5:00am 7:00am                            
                             </div>
@@ -1133,11 +1133,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1147,11 +1147,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1161,11 +1161,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1175,11 +1175,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1189,11 +1189,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1203,11 +1203,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1217,11 +1217,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1231,11 +1231,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1245,11 +1245,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1259,11 +1259,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1301,11 +1301,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1315,11 +1315,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1329,11 +1329,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1343,11 +1343,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1357,11 +1357,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1371,11 +1371,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1385,11 +1385,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1399,11 +1399,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1413,11 +1413,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1427,11 +1427,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1452,11 +1452,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1466,11 +1466,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1480,11 +1480,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1494,11 +1494,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1508,11 +1508,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1522,11 +1522,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1536,11 +1536,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1550,11 +1550,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1564,11 +1564,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>
@@ -1578,11 +1578,11 @@ header {
                             <div class="event-desc text-center">
                                 <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" 
                                 srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" 
-                                width="25px" height="auto"/>
+                                width="40px" height="auto"/>
                             	<span class="visuallyHidden">vs</span>
                             	<img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" 
                             	srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"
-                            	 width="25px" height="auto"/>
+                            	 width="40px" height="auto"/>
                             	 <div class="event-time">
                                 1:00am 3:00am                            
                             </div>

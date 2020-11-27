@@ -370,7 +370,7 @@ input[type=password]:placeholder {
 
     <div class="fadeIn first">
     <br>
-      <img src="https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png" id="icon" alt="로그인" />
+      <img src="src/logo.png" id="icon" alt="회원가입" />
     </div>
 <br>
     <form>
