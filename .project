@@ -30,14 +30,89 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>WebContent/src/harrykane.png</name>
+			<name>WebContent/src/Aguero.png</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/harrykane.png</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Aguero.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/DavidLouis.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/DavidLouis.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/DeBruyne.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/DeBruyne.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/HarryKane.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/HarryKane.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/JamieVardy.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/JamieVardy.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Kante.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Kante.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Lindelof.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Lindelof.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Lloriw.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Lloriw.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Pogba.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Pogba.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Salah.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Salah.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Silva.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Silva.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/VanDijk.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/VanDijk.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/Walker.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/Walker.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/deGea.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/deGea.png</locationURI>
 		</link>
 		<link>
 			<name>WebContent/src/logo.png</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EB%AC%B8%EC%84%9C/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EB%B0%9B%EC%9D%80%20%ED%8C%8C%EC%9D%BC/logo.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/son.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/son.png</locationURI>
+		</link>
+		<link>
+			<name>WebContent/src/willian.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/OneDrive/%EC%82%AC%EC%A7%84/willian.png</locationURI>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/lib/mysql-connector-java-5.1.46.jar</name>

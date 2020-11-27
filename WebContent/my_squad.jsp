@@ -180,31 +180,70 @@ function allowDrop(ev) {
     </div>
 
     <div class="col-sm-8" style="background-image:url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1212930D4C170FBF96); background-repeat:no-repeat ; background-size:contain; height:760px;">
+   		<div class="col-sm-1">
+   		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 340px; width:70px; height:70px; background-color:#ffffff;" ></div>
+   		</div>
    		<div class="col-sm-3">
    		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 150px; margin-top: 100px; width:70px; height:70px; background-color:#ffffff;" ></div>
 		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 150px; margin-top: 90px; width:70px; height:70px; background-color:#ffffff;" ></div>
 		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 150px; margin-top: 100px; width:70px; height:70px; background-color:#ffffff;" ></div>
 		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 150px; margin-top: 100px; width:70px; height:70px; background-color:#ffffff;" ></div>
    		</div>
-   		<div class="col-sm-3">
+   		<div class="col-sm-2">
+   		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 120px; margin-top: 140px; width:70px; height:70px; background-color:#ffffff;" ></div>
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 120px; margin-top: 130px; width:70px; height:70px; background-color:#ffffff;" ></div>
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 120px; margin-top: 140px; width:70px; height:70px; background-color:#ffffff;" ></div>
+   		</div>
+		<div class="col-sm-2">
    		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 180px; margin-top: 140px; width:70px; height:70px; background-color:#ffffff;" ></div>
 		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 180px; margin-top: 130px; width:70px; height:70px; background-color:#ffffff;" ></div>
 		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 180px; margin-top: 140px; width:70px; height:70px; background-color:#ffffff;" ></div>
-   		</div>
-		<div class="col-sm-2">
-   		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 200px; margin-top: 140px; width:70px; height:70px; background-color:#ffffff;" ></div>
-		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 200px; margin-top: 130px; width:70px; height:70px; background-color:#ffffff;" ></div>
-		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-left: 200px; margin-top: 140px; width:70px; height:70px; background-color:#ffffff;" ></div>
    		</div>
 		
 		
 		
     	
     </div>
-    <div class="col-sm-2 sidenav text-center">
+    <div class="col-sm-2 sidenav text-center" style="height:600px">
+    	<span>GK</span>
+       <img class="imageContainer row-content" id="drag4" src="src/deGea.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="다비드 데헤아">
+       <img class="imageContainer row-content" id="drag9" src="src/Lloriw.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="위고 요리스">
+      <br>
+      <span>DF</span>
+      <img class="imageContainer row-content" id="drag2" src="src/DavidLouis.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="다비드 루이스">
+      <img class="imageContainer row-content" id="drag8" src="src/Lindelof.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="린델로프">
+      <img class="imageContainer row-content" id="drag12" src="src/Silva.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="티아구 실바">
+      <img class="imageContainer row-content" id="drag14" src="src/VanDijk.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="버질 반 다이크">
+      <img class="imageContainer row-content" id="drag15" src="src/Walker.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="카일 워커">
+      <br>
+     
+      <span>MF</span>
+      <img class="imageContainer row-content" id="drag3" src="src/DeBruyne.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="케빈 데 브라이너">
+      <img class="imageContainer row-content" id="drag7" src="src/Kante.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="은골로 캉테">
+      <img class="imageContainer row-content" id="drag10" src="src/Pogba.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="폴 포그바">
+       <img class="imageContainer row-content" id="drag16" src="src/willian.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="윌리안">
+      <br>
       
-      <img class="imageContainer row-content" id="drag1" src="src/harrykane.png" draggable="true" ondragstart="drag(event)" width="50" height="100">
-    
+
+      <span>FW</span>
+       <img class="imageContainer row-content" id="drag1" src="src/Aguero.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="아구에로">
+        <img class="imageContainer row-content" id="drag5" src="src/HarryKane.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="해리 케인">
+        <img class="imageContainer row-content" id="drag6" src="src/JamieVardy.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="제이미 바디">
+        <img class="imageContainer row-content" id="drag11" src="src/Salah.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="모하메드 살라">
+        <img class="imageContainer row-content" id="drag13" src="src/son.png" draggable="true" ondragstart="drag(event)" width="50" height="100" title="손흥민">
+      <br>
+      
+      
+     
+      
+      
+      
+      
+      
+      
+      
+      
+     
  
     </div>
   </div>
