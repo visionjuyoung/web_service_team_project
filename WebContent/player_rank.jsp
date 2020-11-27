@@ -25,8 +25,8 @@
 		width: auto
 	}
 	.navbar-brand{
-		background: url(https://upload.wikimedia.org/wikipedia/ko/7/73/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%EB%A6%AC%EA%B7%B8_%EB%A1%9C%EA%B3%A0.png)center / contain no-repeat;
-		width: 100px;
+		background: url(src/logo.png)center / contain no-repeat;
+		width: 180px;
 		margin-right: 10px;
 		margin-top: 10px;
 	}
