@@ -26,7 +26,7 @@
 	}
 	.navbar-brand{
 		background: url(src/logo.png)center / contain no-repeat;
-		width: 180px;
+		width: 190px;
 		margin-right: 10px;
 		margin-top: 10px;
 	}

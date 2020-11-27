@@ -9,11 +9,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="main.jsp"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="main.jsp"> 홈</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="team.jsp">팀
         <span class="caret"></span></a>
