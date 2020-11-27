@@ -19,7 +19,7 @@
         <span class="caret"></span></a>
         <ul class="dropdown-menu scrollable-menu">
            <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/arsenal_50x50.png" srcset="images/arsenal_50x50@x2.png 2x" />
                             <span class="visuallyHidden">아스널 FC</span>
@@ -27,7 +27,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/aston_villa_50x50.png" srcset="images/aston_villa_50x50@x2.png 2x" />
                             <span class="visuallyHidden">아스톤 빌라 FC</span>
@@ -35,7 +35,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/brighton_and_hove_albion_50x50.png" srcset="images/brighton_and_hove_albion_50x50@x2.png 2x" />
                             <span class="visuallyHidden">브라이튼 앤 호브 알비온 FC</span>
@@ -43,7 +43,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/burnley_50x50.png" srcset="images/burnley_50x50@x2.png 2x" />
                             <span class="visuallyHidden">번리 FC</span>
@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/chelsea_50x50.png" srcset="images/chelsea_50x50@x2.png 2x" />
                             <span class="visuallyHidden">첼시 FC</span>
@@ -59,7 +59,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/crystal_palace_50x50.png" srcset="images/crystal_palace_50x50@x2.png 2x" />
                             <span class="visuallyHidden">크리스탈 팰리스 FC</span>
@@ -67,7 +67,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/everton_50x50.png" srcset="images/everton_50x50@x2.png 2x" />
                             <span class="visuallyHidden">에버튼 FC</span>
@@ -75,7 +75,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/fulham_50x50.png" srcset="images/fulham_50x50@x2.png 2x" />
                             <span class="visuallyHidden">풀럼 FC</span>
@@ -83,7 +83,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/leeds_united_50x50.png" srcset="images/leeds_united_50x50@x2.png 2x" />
                             <span class="visuallyHidden">리즈 유나이티드 FC</span>
@@ -91,7 +91,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/leicester_city_50x50.png" srcset="images/leicester_city_50x50@x2.png 2x" />
                             <span class="visuallyHidden">레스터 시티 FC</span>
@@ -99,7 +99,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/liverpool_50x50.png" srcset="images/liverpool_50x50@x2.png 2x" />
                             <span class="visuallyHidden">리버풀 FC</span>
@@ -107,7 +107,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/manchester_city_50x50.png" srcset="images/manchester_city_50x50@x2.png 2x" />
                             <span class="visuallyHidden">맨체스터 시티 FC</span>
@@ -115,7 +115,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/manchester_united_50x50.png" srcset="images/manchester_united_50x50@x2.png 2x" />
                             <span class="visuallyHidden">맨체스터 유나이티드 FC</span>
@@ -123,7 +123,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/newcastle_united_50x50.png" srcset="images/newcastle_united_50x50@x2.png 2x" />
                             <span class="visuallyHidden">뉴캐슬 유나이티드 FC</span>
@@ -131,7 +131,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/sheffield_united.png" srcset="images/sheffield_united_50x50@x2.png 2x" />
@@ -140,7 +140,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/southampton_50x50.png" srcset="images/southampton_50x50@x2.png 2x" />
                             <span class="visuallyHidden">사우샘프턴 FC</span>
@@ -148,7 +148,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/tottenham_hotspur_50x50.png" srcset="images/tottenham_hotspur_50x50@x2.png 2x" />
                             <span class="visuallyHidden">토트넘 홋스퍼 FC</span>
@@ -156,7 +156,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                     <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/west_bromwich_albion_50x50.png" srcset="images/west_bromwich_albion_50x50@x2.png 2x" />
                             <span class="visuallyHidden">웨스트 브로미치 앨비언</span>
@@ -164,7 +164,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/westham_united_50x50.png" srcset="images/westham_united_50x50@x2.png 2x" />
                             <span class="visuallyHidden">웨스트햄 유나이티드 FC</span>
@@ -172,7 +172,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="team.jsp" role="menuitem">
+                    <a href="team.jsp" role="menuitem">
                         <div class="badge badge--large badge-image-container" data-widget="club-badge-image" data-size="50">
                             <img class="badge-image badge-image--50 js-badge-image" src="images/wolverhampton_wanderers_50x50.png" srcset="images/wolverhampton_wanderers_50x50@x2.png 2x" />
                             <span class="visuallyHidden">울버햄튼 원더러스 FC</span>
