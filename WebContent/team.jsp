@@ -231,12 +231,12 @@ header {
   		  <p>Arsenal<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
+  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=2'">
          <a href="main.jsp"><img class="badge-image badge-image--50 js-badge-image" src="images/aston_villa_50x50.png" srcset="images/aston_villa_50x50@x2.png 2x" /></a>
   		<p>Aston villa<p>
   </button>
   
-   <button type="button" class="btn btn-xs btn-link">
+   <button type="button" class="btn btn-xs btn-link" onClick="location.href='team.jsp?team=3'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/brighton_and_hove_albion_50x50.png" srcset="images/brighton_and_hove_albion_50x50@x2.png 2x" />
   		<p>Brighton<p>
   </button>
@@ -245,16 +245,16 @@ header {
   <br>
   
   <div>
-   <button type="button" class="btn btn-xs btn-link">
+   <button type="button" class="btn btn-xs btn-link" onClick="location.href='team.jsp?team=4'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/burnley_50x50.png" srcset="images/burnley_50x50@x2.png 2x" />
   <p>Burnley<p>
   </button>
     
-  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
+  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=5'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/chelsea_50x50.png" srcset="images/chelsea_50x50@x2.png 2x" />
   <p>chelsea<p>
   </button>
-   <button type="button" class="btn btn-xs btn-link">
+   <button type="button" class="btn btn-xs btn-link" onClick="location.href='team.jsp?team=6'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/crystal_palace_50x50.png" srcset="images/crystal_palace_50x50@x2.png 2x" />
  <p>cp fc<p>
   </button>
@@ -263,16 +263,16 @@ header {
   <br>
   
   <div>
-   <button type="button" class="btn btn-xs  btn-link">
+   <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=7'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/everton_50x50.png" srcset="images/everton_50x50@x2.png 2x" />
    <p>Everton<p>
   </button>
-   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
+   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=8'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/fulham_50x50.png" srcset="images/fulham_50x50@x2.png 2x" />
    <p>Fulfam<p>
   </button>
   
-   <button type="button" class="btn btn-xs  btn-link">
+   <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=9'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/leeds_united_50x50.png" srcset="images/leeds_united_50x50@x2.png 2x" />
    <p>leeds<p>
   </button>
@@ -281,16 +281,16 @@ header {
   <br>
   
    <div>
-  <button type="button" class="btn btn-xs  btn-link">
+  <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=10'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/leicester_city_50x50.png" srcset="images/leicester_city_50x50@x2.png 2x" />
   <p>leicester<p>
   </button>
  
-   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
+   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=11'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/liverpool_50x50.png" srcset="images/liverpool_50x50@x2.png 2x" />
   <p>Liverpool<p>
   </button>
-   <button type="button" class="btn btn-xs  btn-link">
+   <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=12'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/manchester_city_50x50.png" srcset="images/manchester_city_50x50@x2.png 2x" />
   <p>Man.city<p>
   </button>
@@ -299,16 +299,16 @@ header {
    <br>
   
    <div>
-  <button type="button" class="btn btn-xs  btn-link">
+  <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=13'">
           <img class="badge-image badge-image--50 js-badge-image"src="images/manchester_united_50x50.png" srcset="images/manchester_united_50x50@x2.png 2x" />
   <p>Man.utd<p>
   </button>
-   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
+   <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=14'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/newcastle_united_50x50.png" srcset="images/newcastle_united_50x50@x2.png 2x" />
   <p>Nu fc<p>
   </button>
   
-   <button type="button" class="btn btn-xs  btn-link">
+   <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=15'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/sheffield_united.png" srcset="images/sheffield_united_50x50@x2.png 2x" />
     <p>Sheffield<p>
   </button>
@@ -317,16 +317,16 @@ header {
    <br>
   
    <div>
-   <button type="button" class="btn btn-xs  btn-link">
+   <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=16'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/southampton_50x50.png" srcset="images/southampton_50x50@x2.png 2x" />
    <p>sh fc<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px">
+  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=17'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/tottenham_hotspur_50x50.png" srcset="images/tottenham_hotspur_50x50@x2.png 2x" />
    <p>Tottenham<p>
   </button>
-   <button type="button" class="btn btn-xs  btn-link">
+   <button type="button" class="btn btn-xs  btn-link" onClick="location.href='team.jsp?team=18'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/west_bromwich_albion_50x50.png" srcset="images/west_bromwich_albion_50x50@x2.png 2x" />
    <p>Wba<p>
   </button>
@@ -335,11 +335,11 @@ header {
    <br>
   
    <div>
-   <button type="button" class="btn btn-xs  btn-link" style="margin-right:20px">
+   <button type="button" class="btn btn-xs  btn-link" style="margin-right:20px" onClick="location.href='team.jsp?team=19'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/westham_united_50x50.png" srcset="images/westham_united_50x50@x2.png 2x" />
   <p>Westham<p>
   </button>
-   <button type="button" class="btn btn-xs  btn-link" style="margin-left:20px">
+   <button type="button" class="btn btn-xs  btn-link" style="margin-left:20px" onClick="location.href='team.jsp?team=20'">
           <img class="badge-image badge-image--50 js-badge-image" src="images/wolverhampton_wanderers_50x50.png" srcset="images/wolverhampton_wanderers_50x50@x2.png 2x" />
   <p>Wolves<p>
   </button>
@@ -361,7 +361,7 @@ header {
      <table class="styled-table" style="margin-top:50px; min-width:900px;">
     <thead>
         <tr>
-            <th style=" text-align:center">아스날 FC</th>
+            <th style=" text-align:center"><%=team.getName() %></th>
         </tr>
     </thead>
     
