@@ -3,7 +3,8 @@ package dto;
 public class Team {
 	private int id;
 	private String name;
-	private String src;
+	private String imgName;
+	private String svgName;
 	private String formName;
 	private String nickname;
 	private String founDay;
@@ -21,7 +22,6 @@ public class Team {
 	private int defeatCount;
 	private int victoryCount;
 	
-	
 	public int getId() {
 		return id;
 	}
@@ -34,11 +34,17 @@ public class Team {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getSrc() {
-		return src;
+	public String getImgName() {
+		return imgName;
 	}
-	public void setSrc(String src) {
-		this.src = src;
+	public void setImgName(String imgName) {
+		this.imgName = imgName;
+	}
+	public String getSvgName() {
+		return svgName;
+	}
+	public void setSvgName(String svgName) {
+		this.svgName = svgName;
 	}
 	public String getFormName() {
 		return formName;

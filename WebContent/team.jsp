@@ -4,6 +4,8 @@
 <%
 	String id = request.getParameter("team");
 	Team team = teamDao.getTeamById(id);
+	
+	
 %>
  
 <!DOCTYPE html>
@@ -355,7 +357,7 @@ header {
 	<br>
 	<form>
     <div class="text-center" style="margin-left:30px; margin-right:30px; border-radius: 10px 10px 10px 10px; height:300px ; border: 4px solid #6699FF">
-       <img src="https://w.namu.la/s/10181b0d6f7f0dbc81f05987cee09a8d08fd297cf1f7f517323bb2b7ade0795902c6cf2ac16739970a4b5f2e701702cffb1f3dd1eeb02b457a316b3129acf305be1f6edb05555db49e375f8d25558ca22bd3c8350476577ab75fee2047069c981aa5d44d1289c643e5f5faa94dab107b" style="height:80%; margin-top:30px"></img>
+       <img src="images/team_svg/<%=team.getSvgName() %>" style="height:80%; margin-top:30px"></img>
     	
     	
      <table class="styled-table" style="margin-top:50px; min-width:900px;">
