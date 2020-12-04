@@ -238,7 +238,7 @@ header {
   		  <p>Arsenal<p>
   </button>
   
-  <button type="button" class="btn btn-xs btn-link" style="margin-right:20px; margin-left:20px" onClick="location.href='team.jsp?team=2'">
+  <button type="button" class="btn btn-xs btn-link" onClick="location.href='team.jsp?team=1'" style="margin-right:20px; margin-left:20px">
          <a href="main.jsp"><img class="badge-image badge-image--50 js-badge-image" src="images/aston_villa_50x50.png" srcset="images/aston_villa_50x50@x2.png 2x" /></a>
   		<p>Aston villa<p>
   </button>
