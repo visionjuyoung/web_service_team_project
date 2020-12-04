@@ -5,6 +5,7 @@ public class Team {
 	private String name;
 	private String imgName;
 	private String svgName;
+	private String dirName;
 	private String formName;
 	private String nickname;
 	private String founDay;
@@ -45,6 +46,12 @@ public class Team {
 	}
 	public void setSvgName(String svgName) {
 		this.svgName = svgName;
+	}
+	public String getDirName() {
+		return dirName;
+	}
+	public void setDirName(String dirName) {
+		this.dirName = dirName;
 	}
 	public String getFormName() {
 		return formName;

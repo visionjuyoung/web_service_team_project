@@ -8,13 +8,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import Info.DBInfo;
 import dto.Player;
 import dto.Team;
 
 public class TeamDAO implements Serializable {
-	private String url = "jdbc:mysql://dblionsight.cxfxrm0j8yz3.ap-northeast-2.rds.amazonaws.com:3306/lionsight?serverTimezone=UTC";
-	private String user = "admin";
-	private String password = "admin123";
+	private static final long serialVersionUID = 1L;
+
 	private Connection conn;
 
 	private String sql = "select * from team where id=?";
@@ -26,7 +26,7 @@ public class TeamDAO implements Serializable {
 	public Team getTeamById(String id) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(url, user, password);
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
 
 			Team team = new Team();
 
@@ -38,6 +38,7 @@ public class TeamDAO implements Serializable {
 				team.setName(rs.getString("name"));
 				team.setImgName(rs.getString("img_name"));
 				team.setSvgName(rs.getString("svg_name"));
+				team.setDirName(rs.getString("dir_name"));
 				team.setFormName(rs.getString("form_name"));
 				team.setNickname(rs.getString("nickname"));
 				team.setFounDay(rs.getString("foun_day"));
@@ -79,9 +80,5 @@ public class TeamDAO implements Serializable {
 			}
 		}
 		return null;
-	}
-	
-	public ArrayList<Player> getPlayersByTeamId(int id) {
-		return new ArrayList<Player>();
 	}
 }

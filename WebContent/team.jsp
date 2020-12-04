@@ -1,10 +1,15 @@
+<%@page import="dto.Player"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="dto.Team"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<jsp:useBean id="teamDao" class="dao.TeamDAO" scope="session" />
+<jsp:useBean id="teamDao" class="dao.TeamDAO" scope="application" />
+<jsp:useBean id="playerDao" class="dao.PlayerDAO" scope="application" />
+
 <%
 	String id = request.getParameter("team");
 	Team team = teamDao.getTeamById(id);
 	
+	ArrayList<Player> players = playerDao.getPlayersByTeamId(id);
 	
 %>
  
@@ -438,110 +443,60 @@ header {
         </tr>
     </thead>
 	</table>
-	
-	<table class="styled-table" style="min-width:900px;">
-	<tr class="active-row">
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Leno_1045x658_0.jpg?itok=wG2m32hE" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Bellerin_1045x658_1.jpg?itok=95vIilIJ" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Tierney_1045x658_0.jpg?itok=mjvpH5MI" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    </tr>
-    	
-    	<tr class="active-row" style="border-bottom: 1px solid  #ffffff;">
-            <th style=" text-align:center">GK</th>
-            <th style=" text-align:center">DF</th>
-            <th style=" text-align:center">DF</th>
-        
-        </tr>
-    	<tr class="active-row">
-            <th style=" text-align:center">베른트 레노</th>
-            <th style=" text-align:center">엑토르 베예린</th>
-            <th style=" text-align:center">키어런 티어니</th>
-        </tr>	
-        
-        
-        <tr class="active-row">
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Saka_1045x658_0.jpg?itok=Tx1tc5do" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Lacazette_1045x658_1.jpg?itok=rpE-7T4U" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Ozil_1045x658_1.jpg?itok=SsX1Db3y" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    </tr>
-    	
-    	<tr class="active-row" style="border-bottom: 1px solid  #ffffff;">
-            <th style=" text-align:center">FW</th>
-            <th style=" text-align:center">FW</th>
-            <th style=" text-align:center">MF</th>
-           
-        </tr>
-    	<tr class="active-row">
-            <th style=" text-align:center">부카요 사카</th>
-            <th style=" text-align:center">알렉상드로 라카제트</th>
-            <th style=" text-align:center">메수트 외질</th>
-  
-        </tr>	
-        
-        
-        <tr class="active-row">
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Partey_1045x658.jpg?itok=iH5rRkLH" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Pepe_1045x658.jpg?itok=t71xsJoY" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Mustafi_1045x658_1.jpg?itok=P2EadO1b" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    </tr>
-    	
-    	<tr class="active-row" style="border-bottom: 1px solid  #ffffff;">
-            <th style=" text-align:center">MF</th>
-            <th style=" text-align:center">FW</th>
-            <th style=" text-align:center">DF</th>
-          
-        </tr>
-    	<tr class="active-row">
-            <th style=" text-align:center">토마스 파티</th>
-            <th style=" text-align:center">니콜라 페페</th>
-            <th style=" text-align:center">슈코드란 무스타피</th>
-          
-        </tr>	
-        
-        <tr class="active-row">
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Gabriel_1045x658%5B2%5D_0.jpg?itok=fNg6wu1H" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Willian_Website_profiles_1045x658.jpg?itok=Tga-wd_1" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    	<th style=" text-align:center">
-    	<img src="https://www.arsenal.com/sites/default/files/styles/player_featured_image_1045x658/public/images/Aubameyang_1045x658_0.jpg?itok=FhDWuQfN" style="height:150px; width:auto; margin-top:10px"></img>
-    	</th>
-    
-    </tr>
-    	
-    	<tr class="active-row" style="border-bottom: 1px solid  #ffffff;">
-            <th style=" text-align:center">DF</th>
-            <th style=" text-align:center">FW</th>
-            <th style=" text-align:center">FW</th>
-
-        </tr>
-    	<tr class="active-row">
-            <th style=" text-align:center">가브리엘</th>
-            <th style=" text-align:center">윌리안</th>
-            <th style=" text-align:center">피에르에메릭 오바메양</th>
-
-        </tr>	
-	</table>
+    	<%
+    		int repeat = 0;
+    		int count = 0;
+    		int playersCount = players.size();
+    		
+    		Player[] threePlayers = new Player[3];
+    		for (Player player : players) {
+    			threePlayers[repeat] = player;
+    			repeat++;
+    			count++;
+    			if (repeat == 3 || count == playersCount) {
+    	%>
+    				<table class="styled-table" style="min-width:900px;">
+						<tr class="active-row">
+					    	
+					    	<%
+		    					for (int i = 0; i < repeat; i++) {
+		    				%>
+		    						<th style=" text-align:center">
+		    						<img src="images/players/<%=team.getDirName() %>/<%=threePlayers[i].getImgName() %>" style="height:150px; width:auto; margin-top:10px"></img>
+		    						</th>		
+		    				<%
+		    					}
+		    				%>
+					    	
+					    </tr>
+		    		<tr class="active-row" style="border-bottom: 1px solid  #ffffff;">
+		    		<%
+		    			for (int i = 0; i < repeat; i++) {
+		    				%>
+		    					<th style=" text-align:center"><%=threePlayers[i].getPosition() %></th>		
+		    				<%
+		    			}
+		    		%>
+		            
+		        
+			        </tr>
+			    	<tr class="active-row">
+			        <%    
+			            for (int i = 0; i < repeat; i++) {
+		    				%>
+		    					<th style=" text-align:center"><%=threePlayers[i].getName() %></th>		
+		    				<%
+		    			}
+			        %>
+			        </tr>		
+    		<%
+    				if (repeat == 3) {
+						repeat = 0;    					
+    				}
+    			}
+    		}
+    		%>	
+					</table>
 	
 	
     </div>
