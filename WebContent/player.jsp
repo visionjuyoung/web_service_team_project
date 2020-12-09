@@ -431,7 +431,7 @@ footer {
 								for(Player player : players) {
 							%>
 									<tr>
-										<td align="left"><a href=""><img
+										<td align="left"><a href="player_list.jsp?playerId=<%=player.getId()%>"><img
 											style="width: 60px; height: 60px; margin-left: 10px; margin-right: 10px;"
 											src="images/players/<%=player.getImgName() %>"><%=player.getName() %></a></td>
 										<td align="left"><%=player.getPosition() %></td>

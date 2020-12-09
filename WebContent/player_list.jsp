@@ -1,4 +1,16 @@
+<%@page import="dto.Player"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<jsp:useBean id="playerDao" class="dao.PlayerDAO" scope="application" />
+<%
+	String playerId = request.getParameter("playerId");
+	int id;
+	Player player = null;
+	if (playerId != null) {
+		id = Integer.parseInt(playerId);
+		player = playerDao.getPlayerById(id);
+	}
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,6 +78,7 @@
   </style>
   
 </head>
+
 <body>
 <div class="col-sm-9 text-center"> 
       <div class="wrapper fadeInDown">
@@ -74,13 +87,13 @@
 	<br>
 	<form>
     <div class="text-center" style="margin-left:30px; margin-right:30px; border-radius: 10px 10px 10px 10px; height:300px ; border: 4px solid #6699FF">
-       <img src="#" style="height:80%; margin-top:30px"></img>
+       <img src="images/players/<%=player.getImgName() %>" style="height:80%; margin-top:30px"></img>
     	
     	
      <table class="styled-table" style="margin-top:50px; min-width:900px;">
     <thead>
         <tr>
-            <th style=" text-align:center">선수 이름 넣는 곳</th>
+            <th style=" text-align:center"><%=player.getName() %></th>
         </tr>
     </thead>
     
@@ -90,35 +103,73 @@
 	 <table class="styled-table" style="min-width:900px;">
     
         <tr class="active-row">
-            <td style="background-color:#D9E5FF">출생</td>
-            <th style=" text-align:center"></th>
+            <td style="background-color:#D9E5FF">클럽</td>
+            <th style=" text-align:center"><%=player.getTeamName() %></th>
         </tr>
         
         <tr class="active-row">
-            <td style="background-color:#D9E5FF">국적</td>
-            <th style=" text-align:center"></th>
-        </tr>
-        
-        <tr class="active-row">
-            <td style="background-color:#D9E5FF">신체</td>
-            <th style=" text-align:center"></th>
+            <td style="background-color:#D9E5FF">등 번호</td>
+            <th style=" text-align:center"><%=player.getBackNumber() %></th>
         </tr>
         
         <tr class="active-row">
             <td style="background-color:#D9E5FF">포지션</td>
-            <th style=" text-align:center"></th>
+            <th style=" text-align:center"><%=player.getPosition() %></th>
         </tr>
         
         <tr class="active-row">
-            <td style="background-color:#D9E5FF">등번호</td>
-            <th style=" text-align:center"></th>
+            <td style="background-color:#D9E5FF">국적</td>
+            <th style=" text-align:center"><%=player.getCountry() %></th>
+        </tr>
+        
+        <tr class="active-row">
+            <td style="background-color:#D9E5FF">나이</td>
+            <th style=" text-align:center"><%=player.getAge() %></th>
         </tr>
    
    		<tr class="active-row">
-            <td style="background-color:#D9E5FF">클럽</td>
-            <th style=" text-align:center"></th>
+            <td style="background-color:#D9E5FF">득점</td>
+            <th style=" text-align:center"><%=player.getGoals() %></th>
         </tr>
         
+        
+        <tr class="active-row">
+            <td style="background-color:#D9E5FF">슈팅</td>
+            <th style=" text-align:center">
+				<%
+        			Integer shots = player.getShots();
+		        	if (shots == null) {
+        				out.print("정보 없음");
+        			} else {
+        				out.print(shots);
+        			}
+        		%>
+			</th>
+        </tr>
+        
+        <tr class="active-row">
+            <td style="background-color:#D9E5FF">유효슈팅</td>
+            <th style=" text-align:center">
+				<%
+        			Integer shotsInTarget = player.getShotsInTarget();
+		        	if (shots == null) {
+        				out.print("정보 없음");
+        			} else {
+        				out.print(shotsInTarget);
+        			}
+        		%>
+			</th>
+        </tr>
+        
+        <tr class="active-row">
+            <td style="background-color:#D9E5FF">도움</td>
+            <th style=" text-align:center"><%=player.getAssist() %></th>
+        </tr>
+        
+        <tr class="active-row">
+            <td style="background-color:#D9E5FF">경기 수</td>
+            <th style=" text-align:center"><%=player.getAppearances() %></th>
+        </tr>
 	</table>
 	
 	
