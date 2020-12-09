@@ -3,7 +3,7 @@
 <jsp:useBean id="playerDao" class="dao.PlayerDAO" scope="application" />
 
 <%
-	ArrayList<Player> players = playerDao.getGoalsRankingPlayers();
+	ArrayList<Player> players = playerDao.getAssistRankingPlayers();
 %>
 
 <!DOCTYPE html>
