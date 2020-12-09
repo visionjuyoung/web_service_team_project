@@ -1,4 +1,11 @@
+<%@page import="dto.Player"%>
+<%@page import="java.util.ArrayList"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<jsp:useBean id="playerDao" class="dao.PlayerDAO" scope="application" />
+<%
+	ArrayList<Player> players = playerDao.getGoalsRankingPlayers();
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -192,293 +199,32 @@
         </tr>
     </thead>
     <tbody>
-        <tr class="active-row">
-            <td>1</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://w.namu.la/s/66f8070ad9282e5b63aa0c3087f34b22540c79c9512d800a1e01eb54e0dd4c49d3aeeb5b0b6121b131b60553a98f9ec9daae008e1c92f3a5e2a2edbf114442ada420cd8d39b304c143f0a84f4fe9e267821ff9eaa61857747a51a84bfd06d31c" srcset="https://w.namu.la/s/66f8070ad9282e5b63aa0c3087f34b22540c79c9512d800a1e01eb54e0dd4c49d3aeeb5b0b6121b131b60553a98f9ec9daae008e1c92f3a5e2a2edbf114442ada420cd8d39b304c143f0a84f4fe9e267821ff9eaa61857747a51a84bfd06d31c" width="100px" height="100px"/>
-            칼버트 르윈
-           </div>
-            </td>
-            <th>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="60px" height="60px"/>
-            토트넘
-           </div>
-            </th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>2</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>3</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>4</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>5</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>6</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>7</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>8</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>9</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>10</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>11</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>12</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>13</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>14</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>15</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>16</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>17</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>18</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>19</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-        
-        <tr class="active-row">
-            <td>20</td>
-            <td>
-            <div class="text-left">
-            <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="25px" height="25px"/>토트넘
-           </div>
-           </td>
-            <th>10</th>
-            <th>5</th>
-            <th>2</th>
-            <th>1</th>
-            <th>20</th>
-        </tr>
-       
-        
+    	<%
+    		int i = 1;
+    		for (Player player : players) {
+    	%>
+    			<tr class="active-row">
+		            <td><%=i %></td>
+		            <td>
+		            	<div class="text-left">
+		            		<img class="badge-image badge-image--50 js-badge-image" src="images/players/<%=player.getImgName() %>" width="100px" height="100px"/>
+		            		<%=player.getName() %>
+		           		</div>
+		            </td>
+		            <td>
+		            	<div class="text-left">
+		            		<img class="badge-image badge-image--50 js-badge-image" src="images/<%=player.getTeamImg() %>" width="60px" height="60px"/>
+		           		</div>
+		            </td>
+		            <td><%=player.getGoals() %></td>
+		            <td><%=player.getShots() %></td>
+		            <td><%=player.getShotsInTarget() %></td>
+		            <td><%=player.getAppearances() %></td>
+		        </tr>
+    	<%
+    		i++;
+    		}
+    	%> 
     </tbody>
 </table>
     </div>

@@ -16,6 +16,7 @@ public class Player {
 	private Integer shotsInTarget;
 	private int appearances;
 	private int assist;
+	private String teamImg;
 	
 	
 	public int getId() {
@@ -107,5 +108,11 @@ public class Player {
 	}
 	public void setAssist(int assist) {
 		this.assist = assist;
+	}
+	public String getTeamImg() {
+		return teamImg;
+	}
+	public void setTeamImg(String teamImg) {
+		this.teamImg = teamImg;
 	}
 }

@@ -56,6 +56,57 @@ public class PlayerDAO implements Serializable {
 		}	
 	}
 	
+	public ArrayList<Player> getGoalsRankingPlayers() {
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			ArrayList<Player> players = new ArrayList<>();
+
+			PreparedStatement pstmt = conn.prepareStatement("select p.id, p.name, t.img_name team_image, "
+					+ "p.img_name, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist from player p, team t "
+					+ "where t.id=p.team_no order by goals desc limit 20");
+			ResultSet rs = pstmt.executeQuery();
+			while (rs.next()) {
+				Player player = new Player();
+				player.setId(rs.getInt("id"));
+				player.setName(rs.getString("name"));	
+				player.setImgName(rs.getString("img_name"));
+				player.setGoals(rs.getInt("goals"));
+				player.setShots(rs.getInt("shots"));
+				player.setShotsInTarget(rs.getInt("shots_in_target"));
+				player.setAppearances(rs.getInt("aprc"));
+				player.setAssist(rs.getInt("assist"));
+				player.setTeamImg(rs.getString("team_image"));
+				players.add(player);
+			}
+
+			if (rs != null) {
+				rs.close();
+			}
+			if (pstmt != null) {
+				pstmt.close();
+			}
+
+			return players;
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return null;
+	}
+	
 	public Player getPlayerById(int id) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
