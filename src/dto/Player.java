@@ -3,10 +3,12 @@ package dto;
 public class Player {
 	private int id;
 	private String name;
-	private String teamName;
+	private int teamNo;
+	private String teamName;	
 	private String backNumber;
 	private String imgName;
 	private String country;
+	private int posNo;
 	private String position;
 	private int age;
 	private int goals;
@@ -27,6 +29,12 @@ public class Player {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public int getTeamNo() {
+		return teamNo;
+	}
+	public void setTeamNo(int teamNo) {
+		this.teamNo = teamNo;
 	}
 	public String getTeamName() {
 		return teamName;
@@ -51,6 +59,12 @@ public class Player {
 	}
 	public void setCountry(String country) {
 		this.country = country;
+	}
+	public int getPosNo() {
+		return posNo;
+	}
+	public void setPosNo(int posNo) {
+		this.posNo = posNo;
 	}
 	public String getPosition() {
 		return position;

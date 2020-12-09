@@ -16,12 +16,44 @@ public class PlayerDAO implements Serializable {
 
 	private Connection conn;
 
-	private String getPlayersSql = "select p.id, p.name, t.name team_name, p.back_no, p.img_name, p.country, "
-			+ "po.name position, p.age, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist from player p, "
-			+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no and p.team_no=?";
-
 	public PlayerDAO() {
 
+	}
+	
+	public void addPlayer(Player player) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			PreparedStatement pstmt = conn.prepareStatement("insert into player(name, team_no, back_no, "
+					+ "img_name, country, pos_no, age, goals, shots, shots_in_target, aprc, assist) "
+					+ "values(?, ?, ?, ?, ?, ?, ?, 0, 0, 0, 0, 0)");
+			pstmt.setString(1, player.getName());
+			pstmt.setInt(2, player.getTeamNo());
+			pstmt.setString(3, player.getBackNumber());
+			pstmt.setString(4, player.getImgName());
+			pstmt.setString(5, player.getCountry());
+			pstmt.setInt(6, player.getPosNo());
+			pstmt.setInt(7, player.getAge());
+			pstmt.execute();
+
+			if (pstmt != null) {
+				pstmt.close();
+			}
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}	
 	}
 
 	public ArrayList<Player> getPlayersByTeamId(String id) {
@@ -31,7 +63,9 @@ public class PlayerDAO implements Serializable {
 
 			ArrayList<Player> players = new ArrayList<>();
 
-			PreparedStatement pstmt = conn.prepareStatement(getPlayersSql);
+			PreparedStatement pstmt = conn.prepareStatement("select p.id, p.name, t.name team_name, p.back_no, p.img_name, p.country, "
+					+ "po.name position, p.age, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist from player p, "
+					+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no and p.team_no=?");
 			pstmt.setString(1, id);
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {

@@ -462,7 +462,7 @@ header {
 		    					for (int i = 0; i < repeat; i++) {
 		    				%>
 		    						<th style=" text-align:center">
-		    						<img src="images/players/<%=team.getDirName() %>/<%=threePlayers[i].getImgName() %>" style="height:150px; width:auto; margin-top:10px"></img>
+		    						<img src="images/players/<%=threePlayers[i].getImgName() %>" style="height:150px; width:auto; margin-top:10px"></img>
 		    						</th>		
 		    				<%
 		    					}
