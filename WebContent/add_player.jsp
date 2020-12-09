@@ -37,7 +37,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">팀</label>
 				<div class="col-sm-3">
-					<select name="team">
+					<select name="team" class="selectpicker">
 						<option value=1>아스널 FC</option>
 						<option value=2>아스톤 빌라 FC</option>
 						<option value=3>브라이튼 앤 호브 알비온 FC</option>
@@ -65,7 +65,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">등번호</label>
 				<div class="col-sm-3">
-					<input type="number" id="backNumber" name="backNumber" class="form-control">
+					<input type="text" id="backNumber" name="backNumber" class="form-control">
 				</div>
 			</div>
 			
@@ -91,7 +91,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">나이</label>
 				<div class="col-sm-3">
-					<input type="number" id="age" name="age" class="form-control">
+					<input type="text" id="age" name="age" class="form-control">
 				</div>
 			</div>
 			

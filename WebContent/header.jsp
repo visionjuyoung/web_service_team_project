@@ -200,6 +200,7 @@
           <li><a href="my_squad.jsp">나만의 스쿼드</a></li>
         </ul>
       </li>
+      <li><a href="management.jsp">관리자 페이지</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>

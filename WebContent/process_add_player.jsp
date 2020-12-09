@@ -1,4 +1,3 @@
-<%@page import="Info.TeamInfo"%>
 <%@page import="dto.Player"%>
 <%@page import="dao.PlayerDAO"%>
 <%@page import="java.util.Enumeration"%>
