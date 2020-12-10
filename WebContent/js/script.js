@@ -4,17 +4,39 @@ function CheckAddPlayer() {
     document.newPlayer.submit();
 }
 
+function CheckMemberInfo() {
+    var user_id = document.getElementById("userId");
+    var nickname = document.getElementById("nickname");
+    var password = document.getElementById("password");
+    var password_correct = document.getElementById("password_correct");
 
-                            function func_day1() {     
-                            	var popupX = (document.body.offsetWidth / 2) - 100;
-                            	var popupY= (window.screen.height / 2) - 80;                       
+    if (user_id.value == "") {
+        alert("아이디를 입력해주세요");
+        user_id.focus();
+        return false;
+    }
 
-  							    var q = document.getElementsByClassName("day1");
-  							    var k = window.open("sss.jsp","",'status=no, height=160, width=200, left='+ popupX + ', top='+ popupY);  							  
-  							    for(i=0; i<2; i++)
-							    {
-							      k.document.write(q[i].innerHTML);
-							      k.document.write('<hr>');
-							    } 
-                            }
-           
+    if (nickname.value == "") {
+        alert("닉네임을 입력해주세요");
+        nickname.focus();
+        return false;
+    }
+
+    if (password.value == "") {
+        alert("비밀번호를 입력해주세요");
+        password.focus();
+        return false;
+    }
+
+    if (password_correct.value == "") {
+        alert("비밀번호를 입력해주세요");
+        password_correct.focus();
+        return false;
+    } else if (password.value != password_correct.value) {
+        alert("비밀번호를 다시 확인해주세요");
+        password_correct.focus();
+        return false;
+    }
+
+    document.member_info.submit();
+}

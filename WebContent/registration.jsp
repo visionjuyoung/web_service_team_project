@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<jsp:useBean id="memberDAO" class="dao.MemberDAO" scope="application" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   <style>
   	body{
   		background-color: #D9E5FF;
@@ -373,87 +375,89 @@ input[type=password]:placeholder {
       <img src="src/logo.png" id="icon" alt="회원가입" />
     </div>
 <br>
-    <form>
-      <input type="text" id="login" class="fadeIn first" name="login" placeholder="아이디">
-      <input type="text" id="nick_name" class="fadeIn second" name="login" placeholder="닉네임">
-      <input type="password" id="password" class="fadeIn third" name="login" placeholder="패스워드">
-      <input type="password" id="password_correct" class="fadeIn fourth" name="login" placeholder="패스워드 확인">
+    <form name="member_info" action="check_member_info.jsp" method="post">
+      <input type="text" id="userId" class="fadeIn first" name="userId" placeholder="아이디">
+      <script type="text/javascript">
+      </script>
+      <input type="text" id="nickname" class="fadeIn second" name="nickname" placeholder="닉네임">
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="패스워드">
+      <input type="password" id="password_correct" class="fadeIn fourth" name="password_correct" placeholder="패스워드 확인">
       <br>
       <h3>팀 선택</h3>
       <br>
 	  <div class="row-content">
-      <label><input type="radio" name="fruit" value="arsenal"> 
+      <label><input type="radio" name="teamNo" value="1" checked="checked"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="aston_villa"> 
+      <label><input type="radio" name="teamNo" value="2"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="brighten"> 
+      <label><input type="radio" name="teamNo" value="3"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="bunley"> 
+      <label><input type="radio" name="teamNo" value="4"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="chelsea"> 
+      <label><input type="radio" name="teamNo" value="5"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x" width="50px" height="50px"/>
       </label>
       </div>
        <br>
 	  <div class="row-content">
-      <label><input type="radio" name="fruit" value="crystal"> 
+      <label><input type="radio" name="teamNo" value="6"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="everton"> 
+      <label><input type="radio" name="teamNo" value="7"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="fulham"> 
+      <label><input type="radio" name="teamNo" value="8"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="leeds"> 
+      <label><input type="radio" name="teamNo" value="9"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t2@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="leicester"> 
+      <label><input type="radio" name="teamNo" value="10"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t13@x2.png 2x" width="50px" height="50px"/>
       </label>
       </div>
        <br>
 	  <div class="row-content">
-      <label><input type="radio" name="fruit" value="liverpool"> 
+      <label><input type="radio" name="teamNo" value="11"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="mancity"> 
+      <label><input type="radio" name="teamNo" value="12"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="manchester"> 
+      <label><input type="radio" name="teamNo" value="13"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="newcastle"> 
+      <label><input type="radio" name="teamNo" value="14"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="cheffield"> 
+      <label><input type="radio" name="teamNo" value="15"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x" width="50px" height="50px"/>
       </label>
       </div>
        <br>
 	  <div class="row-content">
-      <label><input type="radio" name="fruit" value="southampton"> 
+      <label><input type="radio" name="teamNo" value="16"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t20@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="tottenham"> 
+      <label><input type="radio" name="teamNo" value="17"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="west_bromwich"> 
+      <label><input type="radio" name="teamNo" value="18"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t35.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t35@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="westham"> 
+      <label><input type="radio" name="teamNo" value="19"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x" width="50px" height="50px"/>
       </label>
-      <label><input type="radio" name="fruit" value="woolves"> 
+      <label><input type="radio" name="teamNo" value="20"> 
 	  <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x" width="50px" height="50px"/>
       </label>
       </div>
       <br>
-      <input type="submit" class="fadeIn fifth" value="회원가입">
+      <input type="button" class="fadeIn fifth" value="회원가입" onclick="CheckMemberInfo()">
     </form>
   </div>
   <br>

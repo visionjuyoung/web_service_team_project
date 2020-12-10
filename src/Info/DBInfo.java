@@ -1,7 +1,7 @@
 package Info;
 
 public class DBInfo {
-	private static String url = "jdbc:mysql://dblionsight.cxfxrm0j8yz3.ap-northeast-2.rds.amazonaws.com:3306/lionsight?serverTimezone=UTC";
+	private static String url = "jdbc:mysql://dblionsight.cxfxrm0j8yz3.ap-northeast-2.rds.amazonaws.com:3306/lionsight?serverTimezone=UTC&useSSL=false";
 	private static String user = "admin";
 	private static String password = "admin123";
 	
