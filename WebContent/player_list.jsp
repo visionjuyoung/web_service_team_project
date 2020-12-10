@@ -171,10 +171,7 @@
             <th style=" text-align:center"><%=player.getAppearances() %></th>
         </tr>
 	</table>
-	
-	
     </div>
-   
     </form>
   </div>
   <br>

@@ -226,7 +226,7 @@
 		            <td><%=player.getAppearances() %></td>
 		        </tr>
     	<%
-    		i++;
+    			i++;
     		}
     	%> 
     </tbody>

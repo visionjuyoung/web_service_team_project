@@ -427,22 +427,22 @@ footer {
 							</tr>
 						</thead>
 						<tbody>
-							<%
+							<% 
 								for(Player player : players) {
 							%>
 									<tr>
-										<td align="left"><a href="player_list.jsp?playerId=<%=player.getId()%>"><img
+										<td align="left"><a href="player_list.jsp?playerId=<%=player.getId()%>" target="_blank"><img
 											style="width: 60px; height: 60px; margin-left: 10px; margin-right: 10px;"
 											src="images/players/<%=player.getImgName() %>"><%=player.getName() %></a></td>
 										<td align="left"><%=player.getPosition() %></td>
 										<td align="left"><%=player.getCountry() %></td>
 									</tr>
+									
 							<%
 								}
 							%>
 						</tbody>
 					</table>
-
 					<%-- 여기다가 선수 상세 페이지 추가 하면 됨 --%>
 				</div>
 			</div>
