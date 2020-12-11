@@ -177,6 +177,7 @@ input[type=text]:focus {
 input[type=text]:placeholder {
   color: #cccccc;
 }
+
 input[type=password] {
   background-color: #f6f6f6;
   border: none;
@@ -323,16 +324,11 @@ input[type=password]:placeholder {
       <img src="src/logo.png" id="icon" alt="로그인" />
     </div>
 <br>
-    <form action="loginok.jsp" method="post">
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="아이디">
-      <input type="password" id="password" class="fadeIn third" name="password" placeholder="패스워드">
+    <form action="j_security_check" method="post">
+      <input type="text" id="login" class="fadeIn second" name="j_username" placeholder="아이디">
+      <input type="password" id="password" class="fadeIn third" name="j_password" placeholder="패스워드">
       <input type="submit" class="fadeIn fourth" value="로그인">
     </form>
-
-    <div id="formFooter">
-    <a class="underlineHover" href="registration.jsp">회원가입</a>
-    </div>
-
   </div>
   <br>
 </div>

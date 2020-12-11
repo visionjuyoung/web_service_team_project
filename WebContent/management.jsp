@@ -9,6 +9,14 @@
 <title>관리자 페이지</title>
 </head>
 
+<%
+	String userId = (String) session.getAttribute("user_id");
+	if (userId == null) {
+		session.setAttribute("user_id", "king");
+		session.setAttribute("user_pw", "1111");	
+	}
+%>
+
 <body>
 	<jsp:include page="header.jsp"/>
 	<div class="jumbotron">

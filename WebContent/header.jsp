@@ -1,5 +1,7 @@
+<%@page import="dto.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<jsp:useBean id="memberDAO" class="dao.MemberDAO" scope="application"/>
 
 <nav class="navbar navbar-expand-sm">
   <div class="container-fluid">
@@ -203,7 +205,21 @@
       <li><a href="management.jsp">관리자 페이지</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      	<%
+      		String userId = (String) session.getAttribute("user_id");
+      		if (userId == null) {
+      	%>
+      			<li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      	<%		
+      		} else {
+      			Member member = memberDAO.getUserByUserId(userId);
+      	%>
+      			<li><a><%=member.getNickname() %></a></li>
+      			<li><a href="logout.jsp"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      	<%
+      		}
+      	%>
+        
       </ul>
     </div>
   </div>
