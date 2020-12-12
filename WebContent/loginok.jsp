@@ -1,4 +1,6 @@
+<%@page import="dto.Member"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<jsp:useBean id="memberDAO" class="dao.MemberDAO" scope="application"/>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,17 +8,16 @@
 </head>
 <body>
 <%
-String id = request.getParameter("login");
-String pw = request.getParameter("password");
+String userId = request.getParameter("login");
+String userPw = request.getParameter("password");
 
-// 기존 DB의 사용자 ID, PW
-String dbId = "poiuy", dbPw = "0987";
+Member member = memberDAO.getUserByUserId(userId);
 
-if (dbId.equals(id)) {
-	if (dbPw.equals(pw)) {
+if (member != null) {
+	if (member.getPasswd().equals(userPw)) {
 		// 로그인 작업 -> 세션값 생성
-		session.setAttribute("id", id);
-		session.setAttribute("pw", pw);
+		session.setAttribute("user_id", userId);
+		session.setAttribute("user_pw", userPw);
 		%>
 		<script>alert("인증되었습니다.");
 		location.href = "main.jsp"

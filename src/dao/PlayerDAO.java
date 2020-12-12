@@ -218,7 +218,7 @@ public ArrayList<Player> getAssistRankingPlayers() {
 
 			PreparedStatement pstmt = conn.prepareStatement("select p.id, p.name, t.name team_name, p.back_no, p.img_name, p.country, "
 					+ "po.name position, p.age, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist from player p, "
-					+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no");
+					+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no order by name");
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
 				Player player = new Player();
@@ -272,7 +272,7 @@ public ArrayList<Player> getAssistRankingPlayers() {
 
 			PreparedStatement pstmt = conn.prepareStatement("select p.id, p.name, t.name team_name, p.back_no, p.img_name, p.country, "
 					+ "po.name position, p.age, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist from player p, "
-					+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no and p.team_no=?");
+					+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no and p.team_no=? order by p.pos_no");
 			pstmt.setString(1, id);
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
