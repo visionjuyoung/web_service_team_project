@@ -190,7 +190,6 @@
         <ul class="dropdown-menu">
           <li><a href="player_rank.jsp">득점 순위</a></li>
           <li><a href="support_rank.jsp">도움 순위</a></li>
-          <li><a href="pay_rank.jsp">선수가치 순위</a></li>
         </ul>
       </li>
       <li class="dropdown">

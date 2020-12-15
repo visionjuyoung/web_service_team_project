@@ -182,7 +182,6 @@
       <ul class="nav nav-pills nav-stacked">
         <li><a href="player_rank.jsp">득점 순위</a></li>
         <li class="active"><a href="support_rank.jsp">도움 순위</a></li>
-        <li><a href="pay_rank.jsp">선수가치 순위</a></li>
       
     </div>
     <div class="col-sm-8 text-left"> 
