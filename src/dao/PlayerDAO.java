@@ -20,6 +20,41 @@ public class PlayerDAO implements Serializable {
 
 	}
 	
+	public void updatePlayer(int id, Player player) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			PreparedStatement pstmt = conn.prepareStatement("update player SET name=?, team_no=?, back_no=?, img_name=?, country=?, pos_no=?, age=? WHERE id=?");
+			pstmt.setString(1, player.getName());
+			pstmt.setInt(2, player.getTeamNo());
+			pstmt.setString(3, player.getBackNumber());
+			pstmt.setString(4, player.getImgName());
+			pstmt.setString(5, player.getCountry());
+			pstmt.setInt(6, player.getPosNo());
+			pstmt.setInt(7, player.getAge());
+			pstmt.setInt(8, id);
+			pstmt.execute();
+
+			if (pstmt != null) {
+				pstmt.close();
+			}
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}	
+	}
+	
 	public void addPlayer(Player player) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
@@ -158,13 +193,38 @@ public ArrayList<Player> getAssistRankingPlayers() {
 		return null;
 	}
 	
+	public void deletePlayerById(int id) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			PreparedStatement pstmt = conn.prepareStatement("delete from player where id=?");
+			pstmt.setInt(1, id);
+			pstmt.execute();
+			
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
 	public Player getPlayerById(int id) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
 
 			PreparedStatement pstmt = conn.prepareStatement("select p.id, p.name, t.name team_name, p.back_no, p.img_name, p.country, "
-					+ "po.name position, p.age, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist from player p, "
+					+ "po.name position, p.age, p.goals, p.shots, p.shots_in_target, p.aprc, p.assist, t.id team_no, po.id pos_no from player p, "
 					+ "pos po, team t where p.pos_no=po.id and t.id=p.team_no and p.id=?");
 			pstmt.setInt(1, id);
 			ResultSet rs = pstmt.executeQuery();
@@ -183,6 +243,8 @@ public ArrayList<Player> getAssistRankingPlayers() {
 				player.setShotsInTarget(rs.getInt("shots_in_target"));
 				player.setAppearances(rs.getInt("aprc"));
 				player.setAssist(rs.getInt("assist"));
+				player.setTeamNo(rs.getInt("team_no"));
+				player.setPosNo(rs.getInt("pos_no"));
 			}
 
 			if (rs != null) {

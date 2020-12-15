@@ -11,7 +11,6 @@
 
 <%
 	request.setCharacterEncoding("utf-8");
-	
 
 	String filename = "";
 	String realFolder = "C:\\git/web_service_team_project/WebContent/images/players";
@@ -21,7 +20,7 @@
 	MultipartRequest multi = new MultipartRequest(request, realFolder, maxSize, encType,
 			new DefaultFileRenamePolicy());
 	
-	
+	int id = Integer.parseInt(multi.getParameter("playerId"));
 	String playerName = multi.getParameter("playerName");
 	String backNumber = multi.getParameter("backNumber");
 	String country = multi.getParameter("country");
@@ -43,11 +42,9 @@
 	player.setPosNo(posNo);
 	player.setAge(age);
 	
-	
-	playerDao.addPlayer(player);
-	
+	playerDao.updatePlayer(id, player);
 %>
 <script>
-	alert("등록되었습니다");
-	location.href="management.jsp";
+	alert("수정되었습니다");
+	location.href="manage_player.jsp";
 </script>
