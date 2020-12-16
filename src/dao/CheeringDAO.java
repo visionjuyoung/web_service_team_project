@@ -62,7 +62,7 @@ public class CheeringDAO implements Serializable {
 
 			PreparedStatement pstmt = conn.prepareStatement("select c.id id, title, writer_id, "
 					+ "m.nickname writer_name, crt_date, text, t.img_name img_name from cheering c, "
-					+ "team t, member m where m.id=c.writer_id and m.team_no=t.id");
+					+ "team t, member m where m.id=c.writer_id and m.team_no=t.id order by c.id desc");
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
 				Cheering cheering = new Cheering();

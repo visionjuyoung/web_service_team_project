@@ -224,7 +224,7 @@ footer {
 									}
 								%>
 							</div>
-							<form role="form" action="process_add_comment.jsp">
+							<form role="form" action="process_add_comment.jsp" method="post">
 								<div class="form-group">
 									<textarea name="comment" class="form-control" rows="3" required></textarea>
 								</div>

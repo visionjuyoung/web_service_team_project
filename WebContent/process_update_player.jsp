@@ -13,7 +13,7 @@
 	request.setCharacterEncoding("utf-8");
 
 	String filename = "";
-	String realFolder = "C:\\git/web_service_team_project/WebContent/images/players";
+	String realFolder = "/usr/share/tomcat/webapps/Midfielder/images/players";
 	int maxSize = 5 * 1024 * 1024;  // 5MB
 	String encType = "utf-8";
 	

@@ -176,7 +176,7 @@ footer {
 				<br>
 			</div>
 
-			<form action="process_add_cheering.jsp">
+			<form action="process_add_cheering.jsp" method="post">
 				<div class="col-sm-10" style="background: #ffffff">
 					<br>
 					<div style="margin-left: 30px">
