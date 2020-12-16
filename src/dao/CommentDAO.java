@@ -23,6 +23,37 @@ public class CommentDAO implements Serializable {
 
 	}
 	
+	public void insertComment(Comment comment) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			PreparedStatement pstmt = conn.prepareStatement("insert into comment(cheering_id, writer_id, crt_date, text) values(?, ?, ?, ?)");
+			pstmt.setInt(1, comment.getCheeringId());
+			pstmt.setInt(2, comment.getWriterId());
+			pstmt.setString(3, comment.getCrtDate());
+			pstmt.setString(4, comment.getText());
+			pstmt.execute();
+				
+			if (pstmt != null) {
+				pstmt.close();
+			}
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
 	public ArrayList<Comment> getCommentsByCheeringId(int id) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

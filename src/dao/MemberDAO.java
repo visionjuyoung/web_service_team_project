@@ -21,6 +21,45 @@ public class MemberDAO implements Serializable {
 
 	}
 	
+	public int getMemberIdByUserId(String userId) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			
+
+			PreparedStatement pstmt = conn.prepareStatement("select id from member where user_id=?");
+			pstmt.setString(1, userId);
+			ResultSet rs = pstmt.executeQuery();
+			rs.next();
+			
+			int id = rs.getInt("id");
+
+			if (rs != null) {
+				rs.close();
+			}
+			if (pstmt != null) {
+				pstmt.close();
+			}
+
+			return id;
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return 0;
+	}
+	
 	public Member getUserByUserId(String userId) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

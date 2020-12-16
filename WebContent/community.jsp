@@ -224,10 +224,11 @@ footer {
 									}
 								%>
 							</div>
-							<form role="form">
+							<form role="form" action="process_add_comment.jsp">
 								<div class="form-group">
-									<textarea class="form-control" rows="3" required></textarea>
+									<textarea name="comment" class="form-control" rows="3" required></textarea>
 								</div>
+								<input type="hidden" name="cheering_id" value="<%=cheering.getId() %>" />
 								<button type="submit" class="btn btn-success" <%if (userId == null) out.print(" disabled=\"disabled\""); %>>제출</button>
 							</form>
 						</details>
