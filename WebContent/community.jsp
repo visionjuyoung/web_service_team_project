@@ -1,7 +1,9 @@
+<%@page import="dto.Comment"%>
 <%@page import="dto.Cheering"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <jsp:useBean id="cheeringDAO" class="dao.CheeringDAO" scope="application"/>
+<jsp:useBean id="commentDAO" class="dao.CommentDAO" scope="application"/>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -196,35 +198,31 @@ footer {
 						<p><%=cheering.getText() %></p>
 						<br>
 						<details>
-		
+							<%
+								ArrayList<Comment> comments = commentDAO.getCommentsByCheeringId(cheering.getId());
+							%>
 							<summary>
-								댓글 <span class="badge">2</span>
+								댓글 <span class="badge"><%=comments.size() %></span>
 							</summary>
 							<div class="row">
-								<div class="col-sm-2 text-center">
-									<img
-										src="https://resources.premierleague.com/premierleague/badges/50/t1.png"
-										class="img-circle" height="50" width="50" alt="Avatar">
-								</div>
-								<div class="col-sm-10">
-									<h4>
-										황족 맨유 <small>2020-11-21 PM 05:50</small>
-									</h4>
-									<p>ㅆㅇㅈ 그립다 옜날이여....</p>
-									<br>
-								</div>
-								<div class="col-sm-2 text-center">
-									<img
-										src="https://resources.premierleague.com/premierleague/badges/50/t3.png"
-										class="img-circle" height="50" width="50" alt="Avatar">
-								</div>
-								<div class="col-sm-10">
-									<h4>
-										좆 페르시 <small>2020-11-21 PM 05:53</small>
-									</h4>
-									<p>배부른 소리하네.. 우리는...</p>
-									<br>
-								</div>
+								<% 
+									for (Comment comment : comments) {
+								%>
+										<div class="col-sm-2 text-center">
+											<img
+												src="images/<%=comment.getTeamImgName() %>"
+												class="img-circle" height="50" width="50" alt="Avatar">
+										</div>
+										<div class="col-sm-10">
+											<h4>
+												<%=comment.getWriterName() %><small>&nbsp;&nbsp;<%=comment.getCrtDate() %></small>
+											</h4>
+											<p><%=comment.getText() %></p>
+											<br>
+										</div>						
+								<%
+									}
+								%>
 							</div>
 							<form role="form">
 								<div class="form-group">
