@@ -6,6 +6,8 @@ public class Member {
 	private String nickname;
 	private String passwd;
 	private int teamNo;
+	
+	
 	public int getId() {
 		return id;
 	}
