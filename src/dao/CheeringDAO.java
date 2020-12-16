@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 import Info.DBInfo;
 import dto.Cheering;
+import dto.Comment;
 import dto.Member;
 import dto.Player;
 
@@ -20,6 +21,36 @@ public class CheeringDAO implements Serializable {
 
 	public CheeringDAO() {
 
+	}
+	public void insertCheering(Cheering cheering) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DBInfo.getUrl(), DBInfo.getUser(), DBInfo.getPassword());
+
+			PreparedStatement pstmt = conn.prepareStatement("insert into cheering(title, writer_id, crt_date, text) values(?, ?, ?, ?)");
+			pstmt.setString(1, cheering.getTitle());
+			pstmt.setInt(2, cheering.getWriterId());
+			pstmt.setString(3, cheering.getCrtDate());
+			pstmt.setString(4, cheering.getText());
+			pstmt.execute();
+				
+			if (pstmt != null) {
+				pstmt.close();
+			}
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
 	}
 	
 	public ArrayList<Cheering> getAllCheering() {

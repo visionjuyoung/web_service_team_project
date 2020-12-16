@@ -1,10 +1,10 @@
-<%@page import="dto.Comment"%>
+<%@page import="dto.Cheering"%>
+<%@page import="java.util.Date"%>
 <%@page import="java.text.SimpleDateFormat"%>
-<%@page import="java.util.Date" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <jsp:useBean id="memberDAO" class="dao.MemberDAO" scope="application"/>
-<jsp:useBean id="commentDAO" class="dao.CommentDAO" scope="application"/>
+<jsp:useBean id="cheeringDAO" class="dao.CheeringDAO" scope="application"/>
 
 <%!
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd a hh:mm");
@@ -12,22 +12,24 @@
 
 <%
 	request.setCharacterEncoding("utf-8");
-	int cheeringId = Integer.parseInt(request.getParameter("cheering_id"));
+
+	String title = request.getParameter("title");
 	
 	String userId = (String) session.getAttribute("user_id");
 	int writerId = memberDAO.getMemberIdByUserId(userId);
-	
+
 	Date date = new Date();
 	String crtDate = sdf.format(date);
 	
-	String text = request.getParameter("comment");
+	String text = request.getParameter("content");
 	
-	Comment comment = new Comment();
-	comment.setCheeringId(cheeringId);
-	comment.setWriterId(writerId);
-	comment.setCrtDate(crtDate);
-	comment.setText(text);
+	Cheering cheering = new Cheering();
+	cheering.setTitle(title);
+	cheering.setWriterId(writerId);
+	cheering.setCrtDate(crtDate);
+	cheering.setText(text);
 	
-	commentDAO.insertComment(comment);
+	cheeringDAO.insertCheering(cheering);
+	
 	response.sendRedirect("community.jsp");
 %>

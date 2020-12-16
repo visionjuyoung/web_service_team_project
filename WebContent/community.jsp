@@ -238,7 +238,8 @@ footer {
 				%>
 				<div class="text-right">
 					<button type="button" onclick="location.href='write.jsp' "
-						style="width: 150px; background-color: #6699FF; border: none; color: #fff; padding: 15px 0; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; margin: 4px; cursor: pointer; border-radius: 10px;">
+						style="width: 150px; background-color: #6699FF; border: none; color: #fff; padding: 15px 0; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; margin: 4px; cursor: pointer; border-radius: 10px;"
+						<%if (userId == null) out.print(" disabled=\"disabled\""); %>>
 						글쓰기</button>
 				</div>
 				<br> <br>

@@ -159,14 +159,14 @@ footer {
 			<div class="form-group row">
 				<label class="col-sm-2">이미지</label>
 				<div class="col-sm-5">
-					<input type="file" name="productImage" class="form-control">
+					<input type="file" name="productImage" class="form-control" required="required">
 				</div>
 			</div>
 		
 			<div class="form-group row">
 				<label class="col-sm-2">선수 이름</label>
 				<div class="col-sm-3">
-					<input id="playerName" type="text" name="playerName" class="form-control">
+					<input id="playerName" type="text" name="playerName" class="form-control" required="required">
 				</div>
 			</div>
 			
@@ -201,14 +201,14 @@ footer {
 			<div class="form-group row">
 				<label class="col-sm-2">등번호</label>
 				<div class="col-sm-3">
-					<input type="text" id="backNumber" name="backNumber" class="form-control">
+					<input type="text" id="backNumber" name="backNumber" class="form-control required="required"">
 				</div>
 			</div>
 			
 			<div class="form-group row">
 				<label class="col-sm-2">국가</label>
 				<div class="col-sm-3">
-					<input type="text" name="country" class="form-control">
+					<input type="text" name="country" class="form-control" required="required">
 				</div>
 			</div>
 			
@@ -227,7 +227,7 @@ footer {
 			<div class="form-group row">
 				<label class="col-sm-2">나이</label>
 				<div class="col-sm-3">
-					<input type="text" id="age" name="age" class="form-control">
+					<input type="text" id="age" name="age" class="form-control" required="required">
 				</div>
 			</div>
 			
