@@ -20,7 +20,7 @@ if (member != null) {
 		session.setAttribute("user_pw", userPw);
 		%>
 		<script>alert("인증되었습니다.");
-		location.href = "main.jsp"
+		location.href = "index.jsp"
 		</script>
 		<%
 	} else {
