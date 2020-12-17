@@ -53,9 +53,9 @@ body {
 .jumbotron {
 	margin-top: 10px;
 	background:
-		url(https://www.footballist.co.kr/news/photo/202004/123085_50194_2647.png);
+		url(images/banner.png);
 	background-size: cover;
-	height: 400px;
+	height: 600px;
 	color: white;
 }
 
@@ -163,8 +163,8 @@ footer {
 
 <body>
 	<jsp:include page="header.jsp"/>
-	<div class="jumbotron">
-		<div class="container">
+	<div class="container">
+		<div class="jumbotron">
 			<h1 class="display-3">선수 정보 수정</h1>
 		</div>
 	</div>
