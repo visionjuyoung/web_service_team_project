@@ -14,7 +14,7 @@
 	
 
 	String filename = "";
-	String realFolder = "/usr/share/tomcat/webapps/Midfielder/images/players";
+	String realFolder = "/usr/share/tomcat/webapps/ROOT/images/players";
 	int maxSize = 5 * 1024 * 1024;  // 5MB
 	String encType = "utf-8";
 	
