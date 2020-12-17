@@ -38,7 +38,7 @@ body {
 	margin-top: 10px;
 	background: url(images/banner.png);
 	background-size: cover;
-	height: 400px;
+	height: 600px;
 	color: white;
 }
 
@@ -178,8 +178,8 @@ button:hover{
 
 <body>
    <jsp:include page="header.jsp"/>
-   <div class="jumbotron">
-      <div class="container">
+   <div class="container">
+   	<div class="jumbotron">
          <h1 class="display-3">관리자 페이지</h1>
       </div>
    </div>

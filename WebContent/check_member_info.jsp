@@ -4,6 +4,7 @@
 <jsp:useBean id="memberDAO" class="dao.MemberDAO" scope="application"/>
 
 <%
+	request.setCharacterEncoding("utf-8");
 	boolean check = true;
 	String userId = request.getParameter("userId");
 	String userNickname = request.getParameter("nickname");

@@ -161,7 +161,7 @@ function allowDrop(ev) {
 </div>
 
 <div class="col-sm-12 text-center">
-	<h1>응원</h1>
+	<h1>나만의 스쿼드</h1>
 	<hr>
 </div>
 
