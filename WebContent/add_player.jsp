@@ -36,8 +36,7 @@ body {
 
 .jumbotron {
 	margin-top: 10px;
-	background:
-		url(https://www.footballist.co.kr/news/photo/202004/123085_50194_2647.png);
+	background: url(images/banner.png);
 	background-size: cover;
 	height: 400px;
 	color: white;

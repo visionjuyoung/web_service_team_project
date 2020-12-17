@@ -36,8 +36,7 @@ body {
 
 .jumbotron {
 	margin-top: 10px;
-	background:
-		url(https://www.footballist.co.kr/news/photo/202004/123085_50194_2647.png);
+	background: url(images/banner.png);
 	background-size: cover;
 	height: 400px;
 	color: white;
@@ -141,6 +140,30 @@ footer {
 	background-color: #6699FF;
 	padding: 25px;
 }
+
+button{
+   width:120px;
+   height: 40px;
+   color:#fff;
+   background: #004fff;
+   font-size: 16px;
+   border:none;
+   border-radius: 20px;
+   box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+   transition:0.3s;
+   position: absolute;
+   left:50%;
+   top:50%;
+   transform: translate(-50%,-50%);
+}
+button:focus {
+   outline:0;
+}
+button:hover{
+   background: rgba(0,79,255,0.9);
+   cursor: pointer;
+   box-shadow: 0 2px 4px rgba(0,79,255,0.6);
+}
 </style>
 <title>관리자 페이지</title>
 </head>
@@ -154,20 +177,27 @@ footer {
 %>
 
 <body>
-	<jsp:include page="header.jsp"/>
-	<div class="jumbotron">
-		<div class="container">
-			<h1 class="display-3">관리자 페이지</h1>
-		</div>
-	</div>
-	<div class="container">
-		<div class="col-md-4">
-			<a href="add_player.jsp"><button type="button" class="btn btn-default btn-lg">선수 등록</button></a>
-		</div>
-		<div class="col-md-4">
-			<a href="manage_player.jsp"><button type="button" class="btn btn-default btn-lg">선수 정보 수정</button></a>
-		</div>
-	</div>
-	<jsp:include page="footer.jsp"/>
+   <jsp:include page="header.jsp"/>
+   <div class="jumbotron">
+      <div class="container">
+         <h1 class="display-3">관리자 페이지</h1>
+      </div>
+   </div>
+   <div class="container fluid bg-3 text-center">
+   <div id="formContent" style="margin-top: 80px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-4">
+         <a href="add_player.jsp"><button>선수 등록</button></a>
+      </div>
+      <div class="col-md-4">
+         <a href="manage_player.jsp"><button>선수 정보 수정</button></a>
+      </div>
+      <div class="col-md-2">
+      </div>
+   </div>
+   </div>
+   <br><br><br>
+   <jsp:include page="footer.jsp"/>
 </body>
 </html>
