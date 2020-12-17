@@ -38,7 +38,7 @@ body {
 	margin-top: 10px;
 	background: url(images/banner.png);
 	background-size: cover;
-	height: 400px;
+	height: 600px;
 	color: white;
 }
 
@@ -146,8 +146,9 @@ footer {
 
 <body>
 	<jsp:include page="header.jsp"/>
+	<div class="container">
 	<div class="jumbotron">
-		<div class="container">
+		
 			<h1 class="display-3">선수 등록</h1>
 		</div>
 	</div>
