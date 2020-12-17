@@ -325,8 +325,8 @@ input[type=password]:placeholder {
     </div>
 <br>
     <form action="j_security_check" method="post">
-      <input type="text" id="login" class="fadeIn second" name="j_username" placeholder="아이디">
-      <input type="password" id="password" class="fadeIn third" name="j_password" placeholder="패스워드">
+      <input type="text" id="login" class="fadeIn second" name="j_username" placeholder="아이디" required="required">
+      <input type="password" id="password" class="fadeIn third" name="j_password" placeholder="패스워드" required="required">
       <input type="submit" class="fadeIn fourth" value="로그인">
     </form>
   </div>
